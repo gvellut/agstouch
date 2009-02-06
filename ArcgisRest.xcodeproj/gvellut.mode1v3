@@ -216,22 +216,16 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD8C0F3CCE0D00F92FCB</string>
+						<string>6D83B7A70F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6DC9AA560F38F3B500F92FCB</string>
-							<string>6DC9AA420F38F2C200F92FCB</string>
+							<string>6DC9AD8C0F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
 							<string>6D01813C0F36121A0032B3B4</string>
 							<string>6D01816A0F36143D0032B3B4</string>
-							<string>6DC9A9C90F38EFA300F92FCB</string>
-							<string>6DC9A9CA0F38EFA300F92FCB</string>
-							<string>6DC9AA210F38F26500F92FCB</string>
-							<string>6DC9AA220F38F26500F92FCB</string>
-							<string>6DC9AA430F38F2C200F92FCB</string>
-							<string>6DC9AA570F38F3B500F92FCB</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -268,18 +262,16 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD8D0F3CCE0D00F92FCB</string>
+						<string>6D83B7A80F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6DC9AB6D0F38FEBB00F92FCB</string>
-							<string>6DC9AB6E0F38FEBB00F92FCB</string>
+							<string>6DC9AD8D0F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
 							<string>6D0181450F36121A0032B3B4</string>
 							<string>6D0181E30F3646A00032B3B4</string>
-							<string>6DC9AB6F0F38FEBB00F92FCB</string>
-							<string>6DC9AB700F38FEBB00F92FCB</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -316,11 +308,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD8E0F3CCE0D00F92FCB</string>
+						<string>6D83B7A90F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6D0181370F36121A0032B3B4</string>
-							<string>6D01862E0F368BE80032B3B4</string>
+							<string>6DC9AD8E0F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
@@ -362,17 +354,16 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD8F0F3CCE0D00F92FCB</string>
+						<string>6D83B7AA0F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6DC9AB7E0F38FEBB00F92FCB</string>
-							<string>6DC9AB7F0F38FEBB00F92FCB</string>
+							<string>6DC9AD8F0F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
 							<string>6D0180EE0F360F1D0032B3B4</string>
 							<string>6DC9AB800F38FEBB00F92FCB</string>
-							<string>6DC9AB810F38FEBB00F92FCB</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -409,10 +400,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD900F3CCE0D00F92FCB</string>
+						<string>6D83B7AB0F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
-							<string>6DC9AB5D0F38FE5200F92FCB</string>
+							<string>6DC9AD900F3CCE0D00F92FCB</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -449,11 +440,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD910F3CCE0D00F92FCB</string>
+						<string>6D83B7AC0F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6DC9AB7A0F38FEBB00F92FCB</string>
-							<string>6DC9AB5F0F38FE5D00F92FCB</string>
+							<string>6DC9AD910F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
@@ -495,10 +486,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD920F3CCE0D00F92FCB</string>
+						<string>6D83B7AD0F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
-							<string>6DC9AA890F38F51100F92FCB</string>
+							<string>6DC9AD920F3CCE0D00F92FCB</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -535,10 +526,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD930F3CCE0D00F92FCB</string>
+						<string>6D83B7AE0F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
-							<string>6DC9AA590F38F3B500F92FCB</string>
+							<string>6DC9AD930F3CCE0D00F92FCB</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -575,11 +566,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD940F3CCE0D00F92FCB</string>
+						<string>6D83B7AF0F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6D3086170F31321600D2C1D7</string>
-							<string>6D0186280F368BE80032B3B4</string>
+							<string>6DC9AD940F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
@@ -621,11 +612,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD950F3CCE0D00F92FCB</string>
+						<string>6D83B7B00F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6D0181470F36121A0032B3B4</string>
-							<string>6D01862A0F368BE80032B3B4</string>
+							<string>6DC9AD950F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
@@ -667,11 +658,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD960F3CCE0D00F92FCB</string>
+						<string>6D83B7B10F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6D0181F00F3646A00032B3B4</string>
-							<string>6D01862D0F368BE80032B3B4</string>
+							<string>6DC9AD960F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
@@ -712,11 +703,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD970F3CCE0D00F92FCB</string>
+						<string>6D83B7B20F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6D01814B0F36121A0032B3B4</string>
-							<string>6D0186300F368BE80032B3B4</string>
+							<string>6DC9AD970F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
@@ -758,11 +749,11 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>6DC9AD980F3CCE0D00F92FCB</string>
+						<string>6D83B7B30F3CD0E50042D251</string>
 						<key>history</key>
 						<array>
 							<string>6D3086920F313E3600D2C1D7</string>
-							<string>6D0186310F368BE80032B3B4</string>
+							<string>6DC9AD980F3CCE0D00F92FCB</string>
 						</array>
 						<key>prevStack</key>
 						<array>
@@ -918,7 +909,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6DC9AD8B0F3CCE0D00F92FCB</string>
+										<string>6D83B7A40F3CD0E50042D251</string>
 										<key>history</key>
 										<array>
 											<string>6D3085020F31213000D2C1D7</string>
@@ -946,7 +937,7 @@
 											<string>6DC9AA530F38F3B500F92FCB</string>
 											<string>6DC9AB670F38FEBB00F92FCB</string>
 											<string>6DC9AD770F3CCD3900F92FCB</string>
-											<string>6DC9AB680F38FEBB00F92FCB</string>
+											<string>6DC9AD8B0F3CCE0D00F92FCB</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -975,11 +966,7 @@
 											<string>6D0180DE0F360F1D0032B3B4</string>
 											<string>6D0180E10F360F1D0032B3B4</string>
 											<string>6D0181350F36121A0032B3B4</string>
-											<string>6DC9A6120F37B0A200F92FCB</string>
-											<string>6DC9AA540F38F3B500F92FCB</string>
-											<string>6DC9AB6A0F38FEBB00F92FCB</string>
 											<string>6DC9AB6B0F38FEBB00F92FCB</string>
-											<string>6DC9AD780F3CCD3900F92FCB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -1039,9 +1026,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6DC9A5FD0F379FF200F92FCB</string>
+				<string>6D83B7A50F3CD0E50042D251</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>6DC9A5FE0F379FF200F92FCB</string>
+				<string>6D83B7A60F3CD0E50042D251</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -1175,8 +1162,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>6DC9A7B10F37BD1200F92FCB</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>6D3084AC0F311AB000D2C1D7</string>
 		<string>6D3084B50F311AB000D2C1D7</string>
 		<string>6D0181EE0F3646A00032B3B4</string>
@@ -1186,12 +1171,9 @@
 		<string>6DC9AA870F38F51100F92FCB</string>
 		<string>6DC9AB780F38FEBB00F92FCB</string>
 		<string>6DC9AB720F38FEBB00F92FCB</string>
-		<string>6DAB96570F2CF203002CD197</string>
 		<string>6D0180EA0F360F1D0032B3B4</string>
 		<string>6D3084D30F311F4600D2C1D7</string>
-		<string>6DC9A7B00F37BD1200F92FCB</string>
 		<string>6D0181420F36121A0032B3B4</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>6D01810A0F360F1D0032B3B4</string>
 		<string>/Users/gvellut/Documents/IPhone Workspace/ArcgisRest/ArcgisRest.xcodeproj</string>
 	</array>
