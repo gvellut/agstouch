@@ -19,9 +19,10 @@
 @property (retain) NSString* URL;
 @property Boolean contentIsFetched;
 
-- (void) fetchContent;
+- (void) fetchContent:(NSObject*)delegateDL;
 
-- (NSDictionary*) getContentFromURL;
+- (void) getContentFromURL:(NSObject*)delegateDL;
 
 -(AGSResource*) initResourceWithURL:(NSString*) URL_ name:(NSString*)name_;
+
 @end

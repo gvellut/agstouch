@@ -13,6 +13,7 @@
 	UIToolbar* toolbar;
 	UINavigationController* infoNavController;
 	
+	NSMutableData* receivedData;
 	AGSFolder* folder;
 }
 

@@ -41,7 +41,7 @@
 @property (retain) NSString* units;
 @property (retain) NSDictionary* documentInfo;
 
--(AGSMapService*) initMapServiceWithURL:(NSString*)serviceURL name:(NSString*)name type:(NSString*)type fetchContent:(Boolean) fetchContent;
+-(AGSMapService*) initMapServiceWithURL:(NSString*)serviceURL name:(NSString*)name type:(NSString*)type ;
 
-
+- (void) handleResourceData: (NSDictionary*) data;
 @end

@@ -14,32 +14,25 @@
 
 @synthesize type;
 
--(AGSService*) initServiceWithURL:(NSString*) URL_ name:(NSString*)name_  type: (NSString*)type_  fetchContent:(Boolean) fetchContent_ {
+-(AGSService*) initServiceWithURL:(NSString*) URL_ name:(NSString*)name_  type: (NSString*)type_  {
 	[super initResourceWithURL: URL_ name: name_];	
 	self.type = type_;
 	self.contentIsFetched = NO;
 	
-	if(fetchContent_){
-		[self fetchContent];
-	}
 		
 	return self;
 }
 
-+(AGSService*) serviceWithURL:(NSString*)URL_ name:(NSString*)name_ type:(NSString*)type_ fetchContent:(Boolean) fetchContent_ {
++(AGSService*) serviceWithURL:(NSString*)URL_ name:(NSString*)name_ type:(NSString*)type_  {
 	if([type_ isEqualToString:@"MapServer"]){
-		AGSMapService* mapService = [[AGSMapService alloc] initMapServiceWithURL:URL_ name:name_ type:type_ fetchContent:fetchContent_];
+		AGSMapService* mapService = [[AGSMapService alloc] initMapServiceWithURL:URL_ name:name_ type:type_ ];
 		[mapService autorelease];
 		return mapService;
 	} else {
-		AGSService* service = [[AGSService alloc] initServiceWithURL:URL_ name:name_ type:type_ fetchContent:fetchContent_];
+		AGSService* service = [[AGSService alloc] initServiceWithURL:URL_ name:name_ type:type_];
 		[service autorelease];
 		return service;
 	}
-}
-
--(void) fetchContent {
-	contentIsFetched = YES;
 }
 
 - (void)dealloc {

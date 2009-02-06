@@ -12,6 +12,9 @@
 
 @interface AGSMapServiceViewController : UITableViewController {
 	AGSMapService* mapService;
+	
+	NSMutableData* receivedData;
+
 }
 
 @property (retain) AGSMapService* mapService;

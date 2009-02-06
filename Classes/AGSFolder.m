@@ -14,47 +14,25 @@
 @synthesize subFolders;
 @synthesize services;
 
-- (AGSFolder*) initWithURL:(NSString*) URL_ name: (NSString*)name_ fetchContent:(Boolean) fetchContent_ {
+- (AGSFolder*) initWithURL:(NSString*) URL_ name: (NSString*)name_ {
 	[super initResourceWithURL:URL_ name:name_];
 	
 	self.contentIsFetched = NO;
 	
-	if(fetchContent_) {
-		[self fetchContent];
-	}
-	   
 	return self;
-}
+}	
 
-- (AGSFolder*) navigateToSubFolder:(NSString*) folderName {
-	[self fetchContent];
+- (void) handleResourceData: (NSDictionary*) dic {
 	
-	for(AGSFolder* folder in subFolders) {
-		if([folder.name isEqualToString: folderName]){
-			[folder fetchContent];
-			return folder;
-		}
-	}
-	return nil;
-}
-	
-		
-		   
-- (void) fetchContent {
-	if(contentIsFetched)
-		return;
-	
-	NSDictionary* dic = [self getContentFromURL];
-
 	NSArray* subFolderNames = [dic valueForKey: @"folders"];
 	self.subFolders = [[NSMutableArray alloc] initWithCapacity:[subFolderNames count]];
-
+	
 	if(subFolderNames != nil) {
 		for(NSString* subFolderName in subFolderNames) {
 			NSArray* subFolderNameComponents = [subFolderName  pathComponents];
 			NSString* strippedSubFolderName = [subFolderNameComponents objectAtIndex: [subFolderNameComponents count] - 1];
 			NSString* subFolderURL = [self.URL stringByAppendingString:strippedSubFolderName];
-			AGSFolder* agsFolder = [[AGSFolder alloc] initWithURL:subFolderURL name:strippedSubFolderName fetchContent:NO];
+			AGSFolder* agsFolder = [[AGSFolder alloc] initWithURL:subFolderURL name:strippedSubFolderName ];
 			[subFolders addObject:agsFolder];
 			[agsFolder release];
 		}
@@ -69,21 +47,12 @@
 			NSString* serviceName = [serviceNameComponents objectAtIndex: [serviceNameComponents count] - 1];
 			NSString* serviceType = [serviceDescription valueForKey:@"type"];
 			NSString* serviceURL = [[self.URL stringByAppendingString:serviceName] stringByAppendingPathComponent:serviceType];
-			AGSService* agsService = [AGSService serviceWithURL:serviceURL name: serviceName type: serviceType fetchContent:NO];
-			[services addObject:agsService];		}
+			AGSService* agsService = [AGSService serviceWithURL:serviceURL name: serviceName type: serviceType];
+		[services addObject:agsService];		}
 	}
 	
 	self.contentIsFetched = YES;
 }
-
-- (void)  navigateSubFoldersInDepth {
-	[self fetchContent];
-	
-	for(AGSFolder* folder in subFolders) {
-		[folder  navigateSubFoldersInDepth];
-	}
-}
-
 
 
 

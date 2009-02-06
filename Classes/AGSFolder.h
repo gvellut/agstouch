@@ -17,8 +17,7 @@
 @property (retain) NSMutableArray* subFolders;
 @property (retain) NSMutableArray* services;
 
-- (AGSFolder*) initWithURL:(NSString*) URL name: (NSString*) name fetchContent: (Boolean) fetchContent;
-- (AGSFolder*) navigateToSubFolder:(NSString*) folderName;
-- (void) navigateSubFoldersInDepth;
+- (AGSFolder*) initWithURL:(NSString*) URL name: (NSString*) name ;
 
+- (void) handleResourceData: (NSDictionary*) data;
 @end

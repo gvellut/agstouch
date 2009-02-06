@@ -11,18 +11,22 @@
 #import "AGSTileInfo.h"
 #import "AGSEnvelope.h"
 #import "AGSLayer.h"
+#import "JSON.h"
+
 
 #define SERVICE_DESCRIPTION 0
 #define MAP_NAME 1
-#define DESCRIPTION 2
-#define COPYRIGHT_TEXT 3
-#define LAYERS 4
-#define SPATIAL_REFERENCE 5
+#define COPYRIGHT_TEXT 2
+#define LAYERS 3
+#define SPATIAL_REFERENCE 4
+#define UNITS 5
 #define TILE_INFO 6
 #define INITIAL_EXTENT 7
 #define FULL_EXTENT 8
-#define UNITS 9
-#define DOCUMENT_INFO 10
+#define DOCUMENT_INFO 9
+
+#define DESCRIPTION 10 //not displayed
+#define NUM_SECTIONS 10
 
 #define BOLD_TITLE_CELL_ID @"BoldTitleCell"
 #define NORMAL_CELL_ID @"NormalCell"
@@ -81,25 +85,6 @@
 	
 }
 
-/*
-- (id)initWithStyle:(UITableViewStyle)style {
-    // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-    if (self = [super initWithStyle:style]) {
-    }
-    return self;
-}
-*/
-
-/*
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-*/
-
-
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 	
@@ -113,12 +98,41 @@
     [super viewDidAppear:animated];
 	
 	if(mapService != nil) {
-		[mapService fetchContent];
-		
-		[self.tableView reloadData];
+		[mapService fetchContent:self];
+		receivedData= [[NSMutableData data] retain];
 	}
 	
 }
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+	[receivedData setLength:0];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+    [receivedData appendData:data];	
+}
+
+- (void)connection:(NSURLConnection *)connection
+  didFailWithError:(NSError *)error {
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO; 
+	
+    [connection release];
+    [receivedData release];
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO; 
+	
+	NSString* stringReply = [[NSString alloc] initWithData:receivedData encoding:NSUTF8StringEncoding];
+	[mapService handleResourceData:[stringReply JSONValue]];
+	
+	[self.tableView reloadData];
+	[connection release];
+    [receivedData release];	
+}
+
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -133,10 +147,15 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 11;
+	if(mapService == nil || ! mapService.contentIsFetched)
+		return 1;
+    return NUM_SECTIONS;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	if(mapService == nil || ! mapService.contentIsFetched)
+		return nil;
+	
 	switch (section) {
 		case SERVICE_DESCRIPTION:
 			return @"Service description";
@@ -168,6 +187,9 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	if(mapService == nil || ! mapService.contentIsFetched)
+		return 0;
+	
 	switch (section) {
 		case SERVICE_DESCRIPTION:
 			return 1;

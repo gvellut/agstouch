@@ -7,8 +7,6 @@
 //
 
 #import "AGSResource.h"
-#import "JSON/JSON.h"
-
 
 @implementation AGSResource
 
@@ -26,20 +24,22 @@
 	return self;
 }
 
--(void) fetchContent {
-	contentIsFetched = YES;
+
+- (void) fetchContent:(NSObject*) delegateDL {
+	if(contentIsFetched)
+		return;
+	
+	[self getContentFromURL:delegateDL];
+	
 }
 
 
-- (NSDictionary*) getContentFromURL {
-	NSError *error;
-	NSURLResponse *response;
-	NSData *dataReply;
-	NSString *stringReply;
-	NSString* jsonPart;
+
+- (void) getContentFromURL:(NSObject*)delegateDL {
 	
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES; 
 	
+	NSString* jsonPart;
 	if([URL rangeOfString: @"?"].location == NSNotFound)
 		jsonPart = @"?f=json";
 	else
@@ -48,14 +48,12 @@
 									[NSURL URLWithString: 
 									 [URL stringByAppendingString: jsonPart]]];
 	[request setHTTPMethod: @"GET"];
-	dataReply = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
-	stringReply = [[NSString alloc] initWithData:dataReply encoding:NSUTF8StringEncoding];
-	
-	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO; 
-	
-	return [stringReply JSONValue];	
+	[[NSURLConnection alloc] initWithRequest:request delegate:delegateDL];
 }
 
+- (void) handleResourceData: (NSDictionary*) data {
+	//do nothing here
+}
 
 - (void)dealloc {
 	[name release];

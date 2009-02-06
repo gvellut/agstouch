@@ -26,16 +26,13 @@
 @synthesize units;
 @synthesize documentInfo;
 
--(AGSMapService*) initMapServiceWithURL:(NSString*) URL_ name:(NSString*)name_  type: (NSString*)type_  fetchContent:(Boolean) fetchContent_ {
-	[super initServiceWithURL:URL_ name:name_ type:type_ fetchContent:fetchContent_];	 
+-(AGSMapService*) initMapServiceWithURL:(NSString*) URL_ name:(NSString*)name_  type: (NSString*)type_  {
+	[super initServiceWithURL:URL_ name:name_ type:type_];	 
 	return self;
 }
 
--(void) fetchContent {
-	if(contentIsFetched)
-		return;
-	
-	NSDictionary* raw = [self getContentFromURL];
+
+- (void) handleResourceData: (NSDictionary*) raw {
 	self.serviceDescription = [raw objectForKey:@"serviceDescription"];
 	self.mapName = [raw objectForKey:@"mapName"];
 	self.description = [raw objectForKey:@"description"];
@@ -62,6 +59,7 @@
 	
 	
 	contentIsFetched = YES;
+	
 }
 		
 - (void)dealloc {

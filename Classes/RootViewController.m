@@ -11,6 +11,7 @@
 #import "AGSService.h"
 #import "AGSMapService.h"
 #import "AGSMapServiceViewController.h"
+#import "JSON.h"
 
 
 @implementation RootViewController
@@ -30,7 +31,7 @@
     [super viewWillAppear:animated];
 	
 	if(folder == nil) {
-		self.folder = [[AGSFolder alloc] initWithURL: @"http://server.arcgisonline.com/ArcGIS/rest/services" name:@"/" fetchContent:NO];
+		self.folder = [[AGSFolder alloc] initWithURL: @"http://sampleserver1.arcgisonline.com/ArcGIS/rest/services" name:@"/"];
 		[folder release];
 	}
 	
@@ -40,20 +41,11 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
 	
-	[folder fetchContent];
-	[self.tableView reloadData];
+	[folder fetchContent: self];
+	receivedData= [[NSMutableData data] retain];
+
 }
 
-/*
- - (void)viewWillDisappear:(BOOL)animated {
- [super viewWillDisappear:animated];
- }
- */
-/*
- - (void)viewDidDisappear:(BOOL)animated {
- [super viewDidDisappear:animated];
- }
- */
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
@@ -63,6 +55,38 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning]; 
 }
+
+
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+	[receivedData setLength:0];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+    [receivedData appendData:data];	
+}
+
+- (void)connection:(NSURLConnection *)connection
+  didFailWithError:(NSError *)error {
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO; 
+	
+    [connection release];
+    [receivedData release];
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO; 
+	
+	NSString* stringReply = [[NSString alloc] initWithData:receivedData encoding:NSUTF8StringEncoding];
+	[folder handleResourceData:[stringReply JSONValue]];
+	
+	[self.tableView reloadData];
+	[connection release];
+    [receivedData release];	
+}
+
 
 #pragma mark Table view methods
 

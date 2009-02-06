@@ -15,8 +15,8 @@
 
 @property (retain) NSString* type;
 
--(AGSService*) initServiceWithURL:(NSString*)serviceURL name:(NSString*)name type:(NSString*)type fetchContent:(Boolean) fetchContent;
+-(AGSService*) initServiceWithURL:(NSString*)serviceURL name:(NSString*)name type:(NSString*)type ;
 
-+(AGSService*) serviceWithURL:(NSString*)serviceURL name:(NSString*)name type:(NSString*)type fetchContent:(Boolean) fetchContent;
++(AGSService*) serviceWithURL:(NSString*)serviceURL name:(NSString*)name type:(NSString*)type ;
 
 @end

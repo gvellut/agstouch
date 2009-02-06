@@ -23,9 +23,13 @@
 		6D0180650F35F5470032B3B4 /* AGSPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0180640F35F5470032B3B4 /* AGSPoint.m */; };
 		6D0180B60F3604BC0032B3B4 /* AGSMapServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */; };
 		6D0180B80F3604E70032B3B4 /* AGSMapServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D0180B70F3604E70032B3B4 /* AGSMapServiceViewController.xib */; };
+		6D265E4E0F3CE79F009D5F91 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D265E470F3CE79F009D5F91 /* SBJSON.m */; };
+		6D265E4F0F3CE79F009D5F91 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D265E490F3CE79F009D5F91 /* NSString+SBJSON.m */; };
+		6D265E500F3CE79F009D5F91 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D265E4B0F3CE79F009D5F91 /* NSObject+SBJSON.m */; };
 		6D3084890F310CA000D2C1D7 /* AGSFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */; };
 		6D3084920F310E7100D2C1D7 /* AGSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */; };
 		6D30849A0F31100B00D2C1D7 /* AGSResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */; };
+		6D83B7DA0F3CD4260042D251 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D83B7D90F3CD4260042D251 /* MapViewController.xib */; };
 		6DC9AB4E0F38FC3900F92FCB /* AGSLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */; };
 		6DC9AD620F3CCC9700F92FCB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD4C0F3CCC9700F92FCB /* MapViewController.m */; };
 		6DC9AD630F3CCC9700F92FCB /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD4F0F3CCC9700F92FCB /* MapView.m */; };
@@ -68,12 +72,20 @@
 		6D0180B40F3604BC0032B3B4 /* AGSMapServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSMapServiceViewController.h; sourceTree = "<group>"; };
 		6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSMapServiceViewController.m; sourceTree = "<group>"; };
 		6D0180B70F3604E70032B3B4 /* AGSMapServiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AGSMapServiceViewController.xib; sourceTree = "<group>"; };
+		6D265E470F3CE79F009D5F91 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		6D265E480F3CE79F009D5F91 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		6D265E490F3CE79F009D5F91 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		6D265E4A0F3CE79F009D5F91 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		6D265E4B0F3CE79F009D5F91 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		6D265E4C0F3CE79F009D5F91 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		6D265E4D0F3CE79F009D5F91 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		6D3084870F310CA000D2C1D7 /* AGSFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSFolder.h; sourceTree = "<group>"; };
 		6D3084880F310CA000D2C1D7 /* AGSFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSFolder.m; sourceTree = "<group>"; };
 		6D3084900F310E7100D2C1D7 /* AGSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSService.h; sourceTree = "<group>"; };
 		6D3084910F310E7100D2C1D7 /* AGSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSService.m; sourceTree = "<group>"; };
 		6D3084980F31100B00D2C1D7 /* AGSResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSResource.h; sourceTree = "<group>"; };
 		6D3084990F31100B00D2C1D7 /* AGSResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSResource.m; sourceTree = "<group>"; };
+		6D83B7D90F3CD4260042D251 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSLayer.h; sourceTree = "<group>"; };
 		6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSLayer.m; sourceTree = "<group>"; };
 		6DC9AD4B0F3CCC9700F92FCB /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
@@ -118,6 +130,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6D265E460F3CE77F009D5F91 /* JSON */,
 				6DC9AD4D0F3CCC9700F92FCB /* Map */,
 				6DC9AD4A0F3CCC9700F92FCB /* ViewController */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
@@ -182,6 +195,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6D83B7D90F3CD4260042D251 /* MapViewController.xib */,
 				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -198,6 +212,20 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D265E460F3CE77F009D5F91 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6D265E470F3CE79F009D5F91 /* SBJSON.m */,
+				6D265E480F3CE79F009D5F91 /* SBJSON.h */,
+				6D265E490F3CE79F009D5F91 /* NSString+SBJSON.m */,
+				6D265E4A0F3CE79F009D5F91 /* NSString+SBJSON.h */,
+				6D265E4B0F3CE79F009D5F91 /* NSObject+SBJSON.m */,
+				6D265E4C0F3CE79F009D5F91 /* NSObject+SBJSON.h */,
+				6D265E4D0F3CE79F009D5F91 /* JSON.h */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 		6DC9AD4A0F3CCC9700F92FCB /* ViewController */ = {
@@ -288,6 +316,7 @@
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
 				6D0180B80F3604E70032B3B4 /* AGSMapServiceViewController.xib in Resources */,
+				6D83B7DA0F3CD4260042D251 /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +352,9 @@
 				6DC9AD6A0F3CCC9700F92FCB /* MapContentView.m in Sources */,
 				6DC9AD6B0F3CCC9700F92FCB /* MapLoader.m in Sources */,
 				6DC9AD6C0F3CCC9700F92FCB /* MapSourceAttributes.m in Sources */,
+				6D265E4E0F3CE79F009D5F91 /* SBJSON.m in Sources */,
+				6D265E4F0F3CE79F009D5F91 /* NSString+SBJSON.m in Sources */,
+				6D265E500F3CE79F009D5F91 /* NSObject+SBJSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,19 +364,19 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADDITIONAL_SDKS = "$HOME/Library/SDKs/JSON/$(PLATFORM_NAME).sdk";
+				ADDITIONAL_SDKS = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guilhem Vellut";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ArcgisRest_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-ljson",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = ArcgisRest;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E209E2C4-2558-4D63-8A16-7E2923D9B428";
 			};
 			name = Debug;
 		};
@@ -364,12 +396,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guilhem Vellut";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
+				PRODUCT_NAME = AGSTouch;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E209E2C4-2558-4D63-8A16-7E2923D9B428";
 				SDKROOT = iphoneos2.2;
 			};
 			name = Debug;
