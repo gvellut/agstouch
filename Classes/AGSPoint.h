@@ -12,7 +12,7 @@
 
 @interface AGSPoint : AGSGeometry {
 	double x;
-	double y;
+	double y; 
 }
 
 @property double x;
