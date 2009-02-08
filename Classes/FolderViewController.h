@@ -10,9 +10,6 @@
 #import "AGSFolder.h"
 
 @interface FolderViewController : UITableViewController {
-	UIToolbar* toolbar;
-	UINavigationController* infoNavController;
-	
 	NSMutableData* receivedData;
 	AGSFolder* folder;
 }

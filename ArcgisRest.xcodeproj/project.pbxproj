@@ -29,6 +29,8 @@
 		6D3084890F310CA000D2C1D7 /* AGSFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */; };
 		6D3084920F310E7100D2C1D7 /* AGSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */; };
 		6D30849A0F31100B00D2C1D7 /* AGSResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */; };
+		6D50AEB00F3F658E00149EB4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D50AEAF0F3F658E00149EB4 /* MainViewController.xib */; };
+		6D50AEC50F3F677300149EB4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */; };
 		6D83B7DA0F3CD4260042D251 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D83B7D90F3CD4260042D251 /* MapViewController.xib */; };
 		6DC9AB4E0F38FC3900F92FCB /* AGSLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */; };
 		6DC9AD620F3CCC9700F92FCB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD4C0F3CCC9700F92FCB /* MapViewController.m */; };
@@ -85,6 +87,9 @@
 		6D3084910F310E7100D2C1D7 /* AGSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSService.m; sourceTree = "<group>"; };
 		6D3084980F31100B00D2C1D7 /* AGSResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSResource.h; sourceTree = "<group>"; };
 		6D3084990F31100B00D2C1D7 /* AGSResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSResource.m; sourceTree = "<group>"; };
+		6D50AEAF0F3F658E00149EB4 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		6D50AEC30F3F677300149EB4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6D50AEC40F3F677300149EB4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6D83B7D90F3CD4260042D251 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSLayer.h; sourceTree = "<group>"; };
 		6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSLayer.m; sourceTree = "<group>"; };
@@ -158,6 +163,8 @@
 				6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */,
 				6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */,
 				6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */,
+				6D50AEC30F3F677300149EB4 /* MainViewController.h */,
+				6D50AEC40F3F677300149EB4 /* MainViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -194,6 +201,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6D50AEAF0F3F658E00149EB4 /* MainViewController.xib */,
 				6D83B7D90F3CD4260042D251 /* MapViewController.xib */,
 				2899E55F0DE3E45000AC0155 /* FolderViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -309,6 +317,7 @@
 				2899E5600DE3E45000AC0155 /* FolderViewController.xib in Resources */,
 				6D0180B80F3604E70032B3B4 /* AGSMapServiceViewController.xib in Resources */,
 				6D83B7DA0F3CD4260042D251 /* MapViewController.xib in Resources */,
+				6D50AEB00F3F658E00149EB4 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +356,7 @@
 				6D265E4E0F3CE79F009D5F91 /* SBJSON.m in Sources */,
 				6D265E4F0F3CE79F009D5F91 /* NSString+SBJSON.m in Sources */,
 				6D265E500F3CE79F009D5F91 /* NSObject+SBJSON.m in Sources */,
+				6D50AEC50F3F677300149EB4 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

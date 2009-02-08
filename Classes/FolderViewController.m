@@ -29,12 +29,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-	
-	if(folder == nil) {
-		self.folder = [[AGSFolder alloc] initWithURL: @"http://sampleserver1.arcgisonline.com/ArcGIS/rest/services" name:@"/"];
-		[folder release];
-	}
-	
+
 	self.title = folder.name;
 }
 

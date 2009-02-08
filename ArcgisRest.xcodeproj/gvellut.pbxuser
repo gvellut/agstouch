@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {630, 485}}";
+			sepNavIntBoundsRect = "{{0, 0}, {630, 462}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 478}";
 			sepNavWindowFrame = "{{42, 389}, {689, 613}}";
@@ -11,8 +11,8 @@
 	1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {855, 546}}";
-			sepNavSelRange = "{203, 0}";
-			sepNavVisRange = "{0, 699}";
+			sepNavSelRange = "{422, 0}";
+			sepNavVisRange = "{0, 694}";
 			sepNavWindowFrame = "{{731, 256}, {914, 657}}";
 		};
 	};
@@ -31,17 +31,17 @@
 	};
 	28C286DF0D94DF7D0034E888 /* FolderViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {855, 529}}";
-			sepNavSelRange = "{255, 0}";
-			sepNavVisRange = "{0, 420}";
+			sepNavIntBoundsRect = "{{0, 0}, {855, 506}}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRange = "{0, 353}";
 			sepNavWindowFrame = "{{698, 348}, {914, 657}}";
 		};
 	};
 	28C286E00D94DF7D0034E888 /* FolderViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {996, 2576}}";
-			sepNavSelRange = "{4369, 0}";
-			sepNavVisRange = "{3584, 1584}";
+			sepNavIntBoundsRect = "{{0, 0}, {996, 2450}}";
+			sepNavSelRange = "{693, 0}";
+			sepNavVisRange = "{184, 861}";
 			sepNavWindowFrame = "{{184, 298}, {795, 625}}";
 		};
 	};
@@ -293,6 +293,158 @@
 			6D50AEA00F3F648D00149EB4 /* PBXTextBookmark */ = 6D50AEA00F3F648D00149EB4 /* PBXTextBookmark */;
 			6D50AEA10F3F648D00149EB4 /* PBXTextBookmark */ = 6D50AEA10F3F648D00149EB4 /* PBXTextBookmark */;
 			6D50AEA20F3F648D00149EB4 /* PBXTextBookmark */ = 6D50AEA20F3F648D00149EB4 /* PBXTextBookmark */;
+			6D50AEB70F3F659A00149EB4 /* PBXTextBookmark */ = 6D50AEB70F3F659A00149EB4 /* PBXTextBookmark */;
+			6D50AEB80F3F659A00149EB4 /* PBXTextBookmark */ = 6D50AEB80F3F659A00149EB4 /* PBXTextBookmark */;
+			6D50AEB90F3F659A00149EB4 /* PBXTextBookmark */ = 6D50AEB90F3F659A00149EB4 /* PBXTextBookmark */;
+			6D50AEBA0F3F659A00149EB4 /* PBXTextBookmark */ = 6D50AEBA0F3F659A00149EB4 /* PBXTextBookmark */;
+			6D50AEBB0F3F659A00149EB4 /* PBXTextBookmark */ = 6D50AEBB0F3F659A00149EB4 /* PBXTextBookmark */;
+			6D50AEDA0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEDA0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEDB0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEDB0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEDC0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEDC0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEDD0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEDD0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEDE0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEDE0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEDF0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEDF0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEE00F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEE00F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEE10F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEE10F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEE20F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEE20F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEE30F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEE30F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEE60F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEE60F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEE70F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEE70F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEE80F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEE80F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEE90F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEE90F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEEA0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEEA0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEEB0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEEB0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEEC0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEEC0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEEF0F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEEF0F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEF00F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEF00F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEF10F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEF10F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEF20F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEF20F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEF30F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEF30F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEF40F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEF40F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEF50F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEF50F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEF60F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEF60F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEF70F3F6C1C00149EB4 /* PBXTextBookmark */ = 6D50AEF70F3F6C1C00149EB4 /* PBXTextBookmark */;
+			6D50AEFE0F3F6C4F00149EB4 /* PBXTextBookmark */ = 6D50AEFE0F3F6C4F00149EB4 /* PBXTextBookmark */;
+			6D50AF020F3F6CC500149EB4 /* PBXTextBookmark */ = 6D50AF020F3F6CC500149EB4 /* PBXTextBookmark */;
+			6D50AF030F3F6CC500149EB4 /* PBXTextBookmark */ = 6D50AF030F3F6CC500149EB4 /* PBXTextBookmark */;
+			6D50AF040F3F6CC500149EB4 /* PBXTextBookmark */ = 6D50AF040F3F6CC500149EB4 /* PBXTextBookmark */;
+			6D50AF050F3F6CC500149EB4 /* PBXTextBookmark */ = 6D50AF050F3F6CC500149EB4 /* PBXTextBookmark */;
+			6D50AF060F3F6CC500149EB4 /* PBXTextBookmark */ = 6D50AF060F3F6CC500149EB4 /* PBXTextBookmark */;
+			6D50AF070F3F6CC500149EB4 /* PBXTextBookmark */ = 6D50AF070F3F6CC500149EB4 /* PBXTextBookmark */;
+			6D50AF080F3F6CC500149EB4 /* PBXTextBookmark */ = 6D50AF080F3F6CC500149EB4 /* PBXTextBookmark */;
+			6D50AF090F3F6CC500149EB4 /* PBXTextBookmark */ = 6D50AF090F3F6CC500149EB4 /* PBXTextBookmark */;
+			6D50AF0A0F3F6CC500149EB4 /* PBXTextBookmark */ = 6D50AF0A0F3F6CC500149EB4 /* PBXTextBookmark */;
+			6D50AF120F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF120F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF130F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF130F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF140F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF140F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF150F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF150F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF160F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF160F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF170F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF170F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF180F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF180F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF190F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF190F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF1A0F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF1A0F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF1B0F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF1B0F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF1C0F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF1C0F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF1D0F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF1D0F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF1E0F3F6FA900149EB4 /* PBXTextBookmark */ = 6D50AF1E0F3F6FA900149EB4 /* PBXTextBookmark */;
+			6D50AF210F3F711E00149EB4 /* PBXTextBookmark */ = 6D50AF210F3F711E00149EB4 /* PBXTextBookmark */;
+			6D50AF220F3F711E00149EB4 /* PBXTextBookmark */ = 6D50AF220F3F711E00149EB4 /* PBXTextBookmark */;
+			6D50AF230F3F711E00149EB4 /* PBXTextBookmark */ = 6D50AF230F3F711E00149EB4 /* PBXTextBookmark */;
+			6D50AF240F3F711E00149EB4 /* PBXTextBookmark */ = 6D50AF240F3F711E00149EB4 /* PBXTextBookmark */;
+			6D50AF250F3F711E00149EB4 /* PBXTextBookmark */ = 6D50AF250F3F711E00149EB4 /* PBXTextBookmark */;
+			6D50AF260F3F711E00149EB4 /* PBXTextBookmark */ = 6D50AF260F3F711E00149EB4 /* PBXTextBookmark */;
+			6D50AF270F3F711E00149EB4 /* PBXTextBookmark */ = 6D50AF270F3F711E00149EB4 /* PBXTextBookmark */;
+			6D50AF280F3F711E00149EB4 /* PBXTextBookmark */ = 6D50AF280F3F711E00149EB4 /* PBXTextBookmark */;
+			6D50AF290F3F711E00149EB4 /* PBXTextBookmark */ = 6D50AF290F3F711E00149EB4 /* PBXTextBookmark */;
+			6D50AF2E0F3F713600149EB4 /* PBXTextBookmark */ = 6D50AF2E0F3F713600149EB4 /* PBXTextBookmark */;
+			6D50AF2F0F3F713600149EB4 /* PBXTextBookmark */ = 6D50AF2F0F3F713600149EB4 /* PBXTextBookmark */;
+			6D50AF300F3F713600149EB4 /* PBXTextBookmark */ = 6D50AF300F3F713600149EB4 /* PBXTextBookmark */;
+			6D50AF310F3F713600149EB4 /* PBXTextBookmark */ = 6D50AF310F3F713600149EB4 /* PBXTextBookmark */;
+			6D50AF320F3F713600149EB4 /* PBXTextBookmark */ = 6D50AF320F3F713600149EB4 /* PBXTextBookmark */;
+			6D50AF330F3F713600149EB4 /* PBXTextBookmark */ = 6D50AF330F3F713600149EB4 /* PBXTextBookmark */;
+			6D50AF340F3F713600149EB4 /* PBXTextBookmark */ = 6D50AF340F3F713600149EB4 /* PBXTextBookmark */;
+			6D50AF3A0F3F719400149EB4 /* PBXTextBookmark */ = 6D50AF3A0F3F719400149EB4 /* PBXTextBookmark */;
+			6D50AF3B0F3F719400149EB4 /* PBXTextBookmark */ = 6D50AF3B0F3F719400149EB4 /* PBXTextBookmark */;
+			6D50AF3C0F3F719400149EB4 /* PBXTextBookmark */ = 6D50AF3C0F3F719400149EB4 /* PBXTextBookmark */;
+			6D50AF3D0F3F719400149EB4 /* PBXTextBookmark */ = 6D50AF3D0F3F719400149EB4 /* PBXTextBookmark */;
+			6D50AF3E0F3F719400149EB4 /* PBXTextBookmark */ = 6D50AF3E0F3F719400149EB4 /* PBXTextBookmark */;
+			6D50AF3F0F3F719400149EB4 /* PBXTextBookmark */ = 6D50AF3F0F3F719400149EB4 /* PBXTextBookmark */;
+			6D50AF400F3F719400149EB4 /* PBXTextBookmark */ = 6D50AF400F3F719400149EB4 /* PBXTextBookmark */;
+			6D50AF430F3F719D00149EB4 /* PBXTextBookmark */ = 6D50AF430F3F719D00149EB4 /* PBXTextBookmark */;
+			6D50AF440F3F719D00149EB4 /* PBXTextBookmark */ = 6D50AF440F3F719D00149EB4 /* PBXTextBookmark */;
+			6D50AF450F3F719D00149EB4 /* PBXTextBookmark */ = 6D50AF450F3F719D00149EB4 /* PBXTextBookmark */;
+			6D50AF460F3F719D00149EB4 /* PBXTextBookmark */ = 6D50AF460F3F719D00149EB4 /* PBXTextBookmark */;
+			6D50AF470F3F719D00149EB4 /* PBXTextBookmark */ = 6D50AF470F3F719D00149EB4 /* PBXTextBookmark */;
+			6D50AF480F3F719D00149EB4 /* PBXTextBookmark */ = 6D50AF480F3F719D00149EB4 /* PBXTextBookmark */;
+			6D50AF490F3F719D00149EB4 /* PBXTextBookmark */ = 6D50AF490F3F719D00149EB4 /* PBXTextBookmark */;
+			6D50AF4D0F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF4D0F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF4E0F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF4E0F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF4F0F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF4F0F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF500F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF500F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF510F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF510F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF520F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF520F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF530F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF530F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF540F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF540F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF550F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF550F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF560F3F72EF00149EB4 /* PBXTextBookmark */ = 6D50AF560F3F72EF00149EB4 /* PBXTextBookmark */;
+			6D50AF5D0F3F734100149EB4 /* PBXTextBookmark */ = 6D50AF5D0F3F734100149EB4 /* PBXTextBookmark */;
+			6D50AF5E0F3F734100149EB4 /* PBXTextBookmark */ = 6D50AF5E0F3F734100149EB4 /* PBXTextBookmark */;
+			6D50AF5F0F3F734100149EB4 /* PBXTextBookmark */ = 6D50AF5F0F3F734100149EB4 /* PBXTextBookmark */;
+			6D50AF600F3F734100149EB4 /* PBXTextBookmark */ = 6D50AF600F3F734100149EB4 /* PBXTextBookmark */;
+			6D50AF610F3F734100149EB4 /* PBXTextBookmark */ = 6D50AF610F3F734100149EB4 /* PBXTextBookmark */;
+			6D50AF620F3F734100149EB4 /* PBXTextBookmark */ = 6D50AF620F3F734100149EB4 /* PBXTextBookmark */;
+			6D50AF670F3F747700149EB4 /* PBXTextBookmark */ = 6D50AF670F3F747700149EB4 /* PBXTextBookmark */;
+			6D50AF680F3F747700149EB4 /* PBXTextBookmark */ = 6D50AF680F3F747700149EB4 /* PBXTextBookmark */;
+			6D50AF690F3F747700149EB4 /* PBXTextBookmark */ = 6D50AF690F3F747700149EB4 /* PBXTextBookmark */;
+			6D50AF6A0F3F747700149EB4 /* PBXTextBookmark */ = 6D50AF6A0F3F747700149EB4 /* PBXTextBookmark */;
+			6D50AF6B0F3F747700149EB4 /* PBXTextBookmark */ = 6D50AF6B0F3F747700149EB4 /* PBXTextBookmark */;
+			6D50AF6C0F3F747700149EB4 /* PBXTextBookmark */ = 6D50AF6C0F3F747700149EB4 /* PBXTextBookmark */;
+			6D50AF6F0F3F754200149EB4 /* PBXTextBookmark */ = 6D50AF6F0F3F754200149EB4 /* PBXTextBookmark */;
+			6D50AF700F3F754200149EB4 /* PBXTextBookmark */ = 6D50AF700F3F754200149EB4 /* PBXTextBookmark */;
+			6D50AF710F3F754200149EB4 /* PBXTextBookmark */ = 6D50AF710F3F754200149EB4 /* PBXTextBookmark */;
+			6D50AF720F3F754200149EB4 /* PBXTextBookmark */ = 6D50AF720F3F754200149EB4 /* PBXTextBookmark */;
+			6D50AF730F3F754200149EB4 /* PBXTextBookmark */ = 6D50AF730F3F754200149EB4 /* PBXTextBookmark */;
+			6D50AF740F3F754200149EB4 /* PBXTextBookmark */ = 6D50AF740F3F754200149EB4 /* PBXTextBookmark */;
+			6D50AF750F3F75D200149EB4 /* PBXTextBookmark */ = 6D50AF750F3F75D200149EB4 /* PBXTextBookmark */;
+			6D50AF760F3F75D200149EB4 /* PBXTextBookmark */ = 6D50AF760F3F75D200149EB4 /* PBXTextBookmark */;
+			6D50AF770F3F75D200149EB4 /* PBXTextBookmark */ = 6D50AF770F3F75D200149EB4 /* PBXTextBookmark */;
+			6D50AF780F3F75D200149EB4 /* PBXTextBookmark */ = 6D50AF780F3F75D200149EB4 /* PBXTextBookmark */;
+			6D50AF790F3F75D200149EB4 /* PBXTextBookmark */ = 6D50AF790F3F75D200149EB4 /* PBXTextBookmark */;
+			6D50AF7A0F3F75D200149EB4 /* PBXTextBookmark */ = 6D50AF7A0F3F75D200149EB4 /* PBXTextBookmark */;
+			6D50AF7E0F3F76A000149EB4 /* PBXTextBookmark */ = 6D50AF7E0F3F76A000149EB4 /* PBXTextBookmark */;
+			6D50AF7F0F3F76A000149EB4 /* PBXTextBookmark */ = 6D50AF7F0F3F76A000149EB4 /* PBXTextBookmark */;
+			6D50AF800F3F76A000149EB4 /* PBXTextBookmark */ = 6D50AF800F3F76A000149EB4 /* PBXTextBookmark */;
+			6D50AF810F3F76A000149EB4 /* PBXTextBookmark */ = 6D50AF810F3F76A000149EB4 /* PBXTextBookmark */;
+			6D50AF820F3F76A000149EB4 /* PBXTextBookmark */ = 6D50AF820F3F76A000149EB4 /* PBXTextBookmark */;
+			6D50AF830F3F76A000149EB4 /* PBXTextBookmark */ = 6D50AF830F3F76A000149EB4 /* PBXTextBookmark */;
+			6D50AF840F3F76BF00149EB4 /* PBXTextBookmark */ = 6D50AF840F3F76BF00149EB4 /* PBXTextBookmark */;
+			6D50AF850F3F76BF00149EB4 /* PBXTextBookmark */ = 6D50AF850F3F76BF00149EB4 /* PBXTextBookmark */;
+			6D50AF860F3F76BF00149EB4 /* PBXTextBookmark */ = 6D50AF860F3F76BF00149EB4 /* PBXTextBookmark */;
+			6D50AF870F3F76BF00149EB4 /* PBXTextBookmark */ = 6D50AF870F3F76BF00149EB4 /* PBXTextBookmark */;
+			6D50AF880F3F76BF00149EB4 /* PBXTextBookmark */ = 6D50AF880F3F76BF00149EB4 /* PBXTextBookmark */;
+			6D50AF890F3F76BF00149EB4 /* PBXTextBookmark */ = 6D50AF890F3F76BF00149EB4 /* PBXTextBookmark */;
+			6D50AF8B0F3F76DF00149EB4 /* PBXTextBookmark */ = 6D50AF8B0F3F76DF00149EB4 /* PBXTextBookmark */;
+			6D50AF8C0F3F76DF00149EB4 /* PBXTextBookmark */ = 6D50AF8C0F3F76DF00149EB4 /* PBXTextBookmark */;
+			6D50AF8D0F3F76DF00149EB4 /* PBXTextBookmark */ = 6D50AF8D0F3F76DF00149EB4 /* PBXTextBookmark */;
+			6D50AF8E0F3F76DF00149EB4 /* PBXTextBookmark */ = 6D50AF8E0F3F76DF00149EB4 /* PBXTextBookmark */;
+			6D50AF8F0F3F76DF00149EB4 /* PBXTextBookmark */ = 6D50AF8F0F3F76DF00149EB4 /* PBXTextBookmark */;
+			6D50AF900F3F76DF00149EB4 /* PBXTextBookmark */ = 6D50AF900F3F76DF00149EB4 /* PBXTextBookmark */;
+			6D50AF960F3F771E00149EB4 /* PBXTextBookmark */ = 6D50AF960F3F771E00149EB4 /* PBXTextBookmark */;
+			6D50AF970F3F771E00149EB4 /* PBXTextBookmark */ = 6D50AF970F3F771E00149EB4 /* PBXTextBookmark */;
+			6D50AF980F3F771E00149EB4 /* PBXTextBookmark */ = 6D50AF980F3F771E00149EB4 /* PBXTextBookmark */;
+			6D50AF990F3F771E00149EB4 /* PBXTextBookmark */ = 6D50AF990F3F771E00149EB4 /* PBXTextBookmark */;
+			6D50AF9A0F3F771E00149EB4 /* PBXTextBookmark */ = 6D50AF9A0F3F771E00149EB4 /* PBXTextBookmark */;
+			6D50AF9B0F3F771E00149EB4 /* PBXTextBookmark */ = 6D50AF9B0F3F771E00149EB4 /* PBXTextBookmark */;
+			6D50AF9D0F3F771E00149EB4 /* PBXTextBookmark */ = 6D50AF9D0F3F771E00149EB4 /* PBXTextBookmark */;
+			6D50AF9E0F3F771E00149EB4 /* PBXTextBookmark */ = 6D50AF9E0F3F771E00149EB4 /* PBXTextBookmark */;
+			6D50AFA30F3F772800149EB4 /* PBXTextBookmark */ = 6D50AFA30F3F772800149EB4 /* PBXTextBookmark */;
+			6D50AFA40F3F772800149EB4 /* PBXTextBookmark */ = 6D50AFA40F3F772800149EB4 /* PBXTextBookmark */;
+			6D50AFA50F3F772800149EB4 /* PBXTextBookmark */ = 6D50AFA50F3F772800149EB4 /* PBXTextBookmark */;
+			6D50AFA60F3F772800149EB4 /* PBXTextBookmark */ = 6D50AFA60F3F772800149EB4 /* PBXTextBookmark */;
+			6D50AFA70F3F772800149EB4 /* PBXTextBookmark */ = 6D50AFA70F3F772800149EB4 /* PBXTextBookmark */;
+			6D50AFA80F3F772800149EB4 /* PBXTextBookmark */ = 6D50AFA80F3F772800149EB4 /* PBXTextBookmark */;
+			6D50AFA90F3F772800149EB4 /* PBXTextBookmark */ = 6D50AFA90F3F772800149EB4 /* PBXTextBookmark */;
+			6D50AFAA0F3F772800149EB4 /* PBXTextBookmark */ = 6D50AFAA0F3F772800149EB4 /* PBXTextBookmark */;
 			6D83B7DF0F3CD8270042D251 = 6D83B7DF0F3CD8270042D251 /* PBXTextBookmark */;
 			6D83B7E00F3CD8270042D251 = 6D83B7E00F3CD8270042D251 /* PBXTextBookmark */;
 			6D83B7E10F3CD8270042D251 = 6D83B7E10F3CD8270042D251 /* PBXTextBookmark */;
@@ -669,8 +821,8 @@
 	6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {894, 6776}}";
-			sepNavSelRange = "{15124, 0}";
-			sepNavVisRange = "{14263, 1117}";
+			sepNavSelRange = "{14940, 265}";
+			sepNavVisRange = "{14147, 1202}";
 			sepNavWindowFrame = "{{507, 170}, {809, 651}}";
 		};
 	};
@@ -921,7 +1073,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 144";
 		rLen = 0;
-		rLoc = 5083;
+		rLoc = 4914;
 		rType = 0;
 		vrLen = 343;
 		vrLoc = 0;
@@ -961,7 +1113,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 14";
 		rLen = 0;
-		rLoc = 5218;
+		rLoc = 5049;
 		rType = 0;
 		vrLen = 144;
 		vrLoc = 3;
@@ -1117,7 +1269,7 @@
 		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
 		name = "RootViewController.h: 19";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 345;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -1137,7 +1289,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 34";
 		rLen = 0;
-		rLoc = 968;
+		rLoc = 799;
 		rType = 0;
 		vrLen = 774;
 		vrLoc = 608;
@@ -1206,8 +1358,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
 		name = "RootViewController.h: 15";
-		rLen = 31;
-		rLoc = 322;
+		rLen = 30;
+		rLoc = 256;
 		rType = 0;
 		vrLen = 418;
 		vrLoc = 0;
@@ -1377,7 +1529,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 168";
 		rLen = 0;
-		rLoc = 5083;
+		rLoc = 4914;
 		rType = 0;
 		vrLen = 359;
 		vrLoc = 0;
@@ -1417,7 +1569,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 168";
 		rLen = 0;
-		rLoc = 5083;
+		rLoc = 4914;
 		rType = 0;
 		vrLen = 359;
 		vrLoc = 0;
@@ -1467,7 +1619,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 157";
 		rLen = 938;
-		rLoc = 4206;
+		rLoc = 4037;
 		rType = 0;
 		vrLen = 1255;
 		vrLoc = 3953;
@@ -1567,7 +1719,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 157";
 		rLen = 938;
-		rLoc = 4206;
+		rLoc = 4037;
 		rType = 0;
 		vrLen = 1255;
 		vrLoc = 3953;
@@ -1597,7 +1749,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 157";
 		rLen = 938;
-		rLoc = 4206;
+		rLoc = 4037;
 		rType = 0;
 		vrLen = 1255;
 		vrLoc = 3953;
@@ -1645,7 +1797,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "FolderViewController.m: 168";
 		rLen = 0;
-		rLoc = 5083;
+		rLoc = 4914;
 		rType = 0;
 		vrLen = 363;
 		vrLoc = 0;
@@ -1673,7 +1825,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 168";
 		rLen = 0;
-		rLoc = 5083;
+		rLoc = 4914;
 		rType = 0;
 		vrLen = 359;
 		vrLoc = 0;
@@ -1693,7 +1845,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "FolderViewController.m: 168";
 		rLen = 0;
-		rLoc = 5083;
+		rLoc = 4914;
 		rType = 0;
 		vrLen = 363;
 		vrLoc = 0;
@@ -1713,7 +1865,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "FolderViewController.m: 168";
 		rLen = 0;
-		rLoc = 5083;
+		rLoc = 4914;
 		rType = 0;
 		vrLen = 363;
 		vrLoc = 0;
@@ -1772,7 +1924,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		rLen = 0;
-		rLoc = 2147483657;
+		rLoc = 2147483488;
 		rType = 0;
 	};
 	6D50AEA10F3F648D00149EB4 /* PBXTextBookmark */ = {
@@ -1790,10 +1942,1539 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "FolderViewController.m: 159";
 		rLen = 0;
-		rLoc = 4369;
+		rLoc = 4200;
 		rType = 0;
 		vrLen = 1584;
 		vrLoc = 3584;
+	};
+	6D50AEB70F3F659A00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 464";
+		rLen = 0;
+		rLoc = 15123;
+		rType = 0;
+		vrLen = 477;
+		vrLoc = 14830;
+	};
+	6D50AEB80F3F659A00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 0;
+	};
+	6D50AEB90F3F659A00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AEBA0F3F659A00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 464";
+		rLen = 0;
+		rLoc = 15124;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 14263;
+	};
+	6D50AEBB0F3F659A00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 159";
+		rLen = 0;
+		rLoc = 4200;
+		rType = 0;
+		vrLen = 1584;
+		vrLoc = 3584;
+	};
+	6D50AEC30F3F677300149EB4 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {406, 308}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 305}";
+		};
+	};
+	6D50AEC40F3F677300149EB4 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 1232}}";
+			sepNavSelRange = "{1047, 0}";
+			sepNavVisRange = "{236, 1232}";
+		};
+	};
+	6D50AEDA0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 464";
+		rLen = 0;
+		rLoc = 15123;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 14751;
+	};
+	6D50AEDB0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 0;
+	};
+	6D50AEDC0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
+		name = "FolderViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
+	6D50AEDD0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 241;
+		vrLoc = 0;
+	};
+	6D50AEDE0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 464";
+		rLen = 0;
+		rLoc = 15123;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 14751;
+	};
+	6D50AEDF0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	6D50AEE00F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 0;
+	};
+	6D50AEE10F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
+		name = "FolderViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
+	6D50AEE20F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 241;
+		vrLoc = 0;
+	};
+	6D50AEE30F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 168";
+		rLen = 0;
+		rLoc = 4914;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AEE60F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 6";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	6D50AEE70F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 11";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 656;
+		vrLoc = 0;
+	};
+	6D50AEE80F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 13";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	6D50AEE90F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 11";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 656;
+		vrLoc = 0;
+	};
+	6D50AEEA0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 6";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	6D50AEEB0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 35";
+		rLen = 0;
+		rLoc = 1527;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 0;
+	};
+	6D50AEEC0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 34";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 88;
+	};
+	6D50AEEF0F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
+		name = "FolderViewController.h: 13";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	6D50AEF00F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 147";
+		rLen = 0;
+		rLoc = 3716;
+		rType = 0;
+		vrLen = 1521;
+		vrLoc = 3647;
+	};
+	6D50AEF10F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
+		name = "FolderViewController.h: 13";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 420;
+		vrLoc = 0;
+	};
+	6D50AEF20F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 147";
+		rLen = 0;
+		rLoc = 3716;
+		rType = 0;
+		vrLen = 1521;
+		vrLoc = 3647;
+	};
+	6D50AEF30F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
+		name = "FolderViewController.h: 13";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	6D50AEF40F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 30";
+		rLen = 506;
+		rLoc = 616;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 184;
+	};
+	6D50AEF50F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	6D50AEF60F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AEF70F3F6C1C00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 464";
+		rLen = 0;
+		rLoc = 15124;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 14263;
+	};
+	6D50AEFE0F3F6C4F00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		rLen = 1;
+		rLoc = 15;
+		rType = 1;
+	};
+	6D50AF020F3F6CC500149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 168";
+		rLen = 0;
+		rLoc = 4914;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF030F3F6CC500149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 53";
+		rLen = 28;
+		rLoc = 1581;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 611;
+	};
+	6D50AF040F3F6CC500149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 53";
+		rLen = 28;
+		rLoc = 1581;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 611;
+	};
+	6D50AF050F3F6CC500149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 16";
+		rLen = 0;
+		rLoc = 337;
+		rType = 0;
+		vrLen = 277;
+		vrLoc = 0;
+	};
+	6D50AF060F3F6CC500149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF070F3F6CC500149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 34";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 88;
+	};
+	6D50AF080F3F6CC500149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 30";
+		rLen = 506;
+		rLoc = 616;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 184;
+	};
+	6D50AF090F3F6CC500149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	6D50AF0A0F3F6CC500149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF120F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 163";
+		rLen = 0;
+		rLoc = 4914;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF130F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 11";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 0;
+	};
+	6D50AF140F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 14";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	6D50AF150F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 16";
+		rLen = 0;
+		rLoc = 337;
+		rType = 0;
+		vrLen = 277;
+		vrLoc = 0;
+	};
+	6D50AF160F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 45";
+		rLen = 0;
+		rLoc = 1467;
+		rType = 0;
+		vrLen = 1036;
+		vrLoc = 674;
+	};
+	6D50AF170F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 14";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	6D50AF180F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 11";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 0;
+	};
+	6D50AF190F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 13";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 0;
+	};
+	6D50AF1A0F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF1B0F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF1C0F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF1D0F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	6D50AF1E0F3F6FA900149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF210F3F711E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 163";
+		rLen = 0;
+		rLoc = 4914;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF220F3F711E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 14";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 0;
+	};
+	6D50AF230F3F711E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 14";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 0;
+	};
+	6D50AF240F3F711E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 58";
+		rLen = 0;
+		rLoc = 1734;
+		rType = 0;
+		vrLen = 1188;
+		vrLoc = 545;
+	};
+	6D50AF250F3F711E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF260F3F711E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF270F3F711E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF280F3F711E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	6D50AF290F3F711E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF2E0F3F713600149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 163";
+		rLen = 0;
+		rLoc = 4914;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF2F0F3F713600149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 22";
+		rLen = 0;
+		rLoc = 424;
+		rType = 0;
+		vrLen = 1126;
+		vrLoc = 0;
+	};
+	6D50AF300F3F713600149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF310F3F713600149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF320F3F713600149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF330F3F713600149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	6D50AF340F3F713600149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF3A0F3F719400149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 163";
+		rLen = 0;
+		rLoc = 4914;
+		rType = 0;
+		vrLen = 356;
+		vrLoc = 28;
+	};
+	6D50AF3B0F3F719400149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 30";
+		rLen = 0;
+		rLoc = 552;
+		rType = 0;
+		vrLen = 1145;
+		vrLoc = 0;
+	};
+	6D50AF3C0F3F719400149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 385;
+	};
+	6D50AF3D0F3F719400149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1223;
+		vrLoc = 14147;
+	};
+	6D50AF3E0F3F719400149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 184;
+	};
+	6D50AF3F0F3F719400149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 0;
+	};
+	6D50AF400F3F719400149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF430F3F719D00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 163";
+		rLen = 0;
+		rLoc = 4914;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF440F3F719D00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 30";
+		rLen = 0;
+		rLoc = 552;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 0;
+	};
+	6D50AF450F3F719D00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF460F3F719D00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF470F3F719D00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF480F3F719D00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	6D50AF490F3F719D00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF4D0F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 163";
+		rLen = 0;
+		rLoc = 4914;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF4E0F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 6";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	6D50AF4F0F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 33";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 0;
+	};
+	6D50AF500F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 33";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 0;
+	};
+	6D50AF510F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 6";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	6D50AF520F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 8";
+		rLen = 0;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 1028;
+		vrLoc = 0;
+	};
+	6D50AF530F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF540F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF550F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF560F3F72EF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF5D0F3F734100149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 16";
+		rLen = 1;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF5E0F3F734100149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF5F0F3F734100149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 8";
+		rLen = 0;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 1028;
+		vrLoc = 0;
+	};
+	6D50AF600F3F734100149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF610F3F734100149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF620F3F734100149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF670F3F747700149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 16";
+		rLen = 1;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF680F3F747700149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 39";
+		rLen = 0;
+		rLoc = 1048;
+		rType = 0;
+		vrLen = 1043;
+		vrLoc = 408;
+	};
+	6D50AF690F3F747700149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF6A0F3F747700149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF6B0F3F747700149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF6C0F3F747700149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF6F0F3F754200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 16";
+		rLen = 1;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF700F3F754200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 37";
+		rLen = 0;
+		rLoc = 836;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 236;
+	};
+	6D50AF710F3F754200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF720F3F754200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF730F3F754200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF740F3F754200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF750F3F75D200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 16";
+		rLen = 1;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF760F3F75D200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 36";
+		rLen = 0;
+		rLoc = 833;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 236;
+	};
+	6D50AF770F3F75D200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF780F3F75D200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF790F3F75D200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF7A0F3F75D200149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF7E0F3F76A000149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 16";
+		rLen = 1;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF7F0F3F76A000149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 48";
+		rLen = 0;
+		rLoc = 1224;
+		rType = 0;
+		vrLen = 1218;
+		vrLoc = 236;
+	};
+	6D50AF800F3F76A000149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF810F3F76A000149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF820F3F76A000149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF830F3F76A000149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF840F3F76BF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 16";
+		rLen = 1;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF850F3F76BF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 40";
+		rLen = 0;
+		rLoc = 922;
+		rType = 0;
+		vrLen = 1218;
+		vrLoc = 236;
+	};
+	6D50AF860F3F76BF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF870F3F76BF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF880F3F76BF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF890F3F76BF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF8B0F3F76DF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 16";
+		rLen = 1;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AF8C0F3F76DF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 42";
+		rLen = 0;
+		rLoc = 1047;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 236;
+	};
+	6D50AF8D0F3F76DF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AF8E0F3F76DF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AF8F0F3F76DF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AF900F3F76DF00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6D50AF960F3F771E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 464";
+		rLen = 0;
+		rLoc = 15123;
+		rType = 0;
+		vrLen = 367;
+		vrLoc = 14941;
+	};
+	6D50AF970F3F771E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 261;
+		vrLoc = 0;
+	};
+	6D50AF980F3F771E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: invalid preprocessing directive #impot";
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	6D50AF990F3F771E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 464";
+		rLen = 0;
+		rLoc = 15123;
+		rType = 0;
+		vrLen = 367;
+		vrLoc = 14941;
+	};
+	6D50AF9A0F3F771E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */;
+		name = "ArcgisRestAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 261;
+		vrLoc = 0;
+	};
+	6D50AF9B0F3F771E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 11";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 46;
+	};
+	6D50AF9D0F3F771E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 6";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 305;
+		vrLoc = 0;
+	};
+	6D50AF9E0F3F771E00149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC30F3F677300149EB4 /* MainViewController.h */;
+		name = "MainViewController.h: 6";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 305;
+		vrLoc = 0;
+	};
+	6D50AFA30F3F772800149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 16";
+		rLen = 1;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AFA40F3F772800149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 16";
+		rLen = 1;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 28;
+	};
+	6D50AFA50F3F772800149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 279;
+		vrLoc = 0;
+	};
+	6D50AFA60F3F772800149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */;
+		name = "MainViewController.m: 42";
+		rLen = 0;
+		rLoc = 1047;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 236;
+	};
+	6D50AFA70F3F772800149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 385;
+	};
+	6D50AFA80F3F772800149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 460";
+		rLen = 265;
+		rLoc = 14940;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 14147;
+	};
+	6D50AFA90F3F772800149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 32";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 184;
+	};
+	6D50AFAA0F3F772800149EB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */;
+		name = "ArcgisRestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
 	};
 	6D83B7DF0F3CD8270042D251 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2526,7 +4207,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 84";
 		rLen = 30;
-		rLoc = 2067;
+		rLoc = 1898;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 1290;
@@ -2536,7 +4217,7 @@
 		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
 		name = "RootViewController.h: 15";
 		rLen = 0;
-		rLoc = 322;
+		rLoc = 256;
 		rType = 0;
 		vrLen = 418;
 		vrLoc = 0;
@@ -2546,7 +4227,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 77";
 		rLen = 0;
-		rLoc = 1855;
+		rLoc = 1686;
 		rType = 0;
 		vrLen = 1037;
 		vrLoc = 1160;
@@ -2556,7 +4237,7 @@
 		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
 		name = "RootViewController.h: 15";
 		rLen = 0;
-		rLoc = 322;
+		rLoc = 256;
 		rType = 0;
 		vrLen = 418;
 		vrLoc = 0;
@@ -2566,7 +4247,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
 		name = "RootViewController.m: 84";
 		rLen = 30;
-		rLoc = 2067;
+		rLoc = 1898;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 1290;
@@ -2715,8 +4396,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286DF0D94DF7D0034E888 /* FolderViewController.h */;
 		name = "RootViewController.h: 15";
-		rLen = 31;
-		rLoc = 322;
+		rLen = 30;
+		rLoc = 256;
 		rType = 0;
 		vrLen = 418;
 		vrLoc = 0;
@@ -2865,9 +4546,9 @@
 	};
 	6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {798, 336}}";
+			sepNavIntBoundsRect = "{{0, 0}, {360, 378}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 303}";
+			sepNavVisRange = "{0, 279}";
 			sepNavWindowFrame = "{{15, 62}, {820, 961}}";
 		};
 	};
