@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AGSFolder.h"
 
-@interface RootViewController : UITableViewController {
+@interface FolderViewController : UITableViewController {
 	UIToolbar* toolbar;
 	UINavigationController* infoNavController;
 	

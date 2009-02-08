@@ -12,6 +12,7 @@
 #import "AGSEnvelope.h"
 #import "AGSLayer.h"
 #import "JSON.h"
+#import "MapViewController.h"
 
 
 #define SERVICE_DESCRIPTION 0
@@ -459,15 +460,14 @@
 
 
 - (void) showMap: (id) sender {
-	
+	MapViewController* mapViewController = [[MapViewController alloc] initWithNibName:@"MapViewController" bundle:nil];
+	[self.navigationController pushViewController: mapViewController animated:YES];
+	[mapViewController release];
 }
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
-	// [self.navigationController pushViewController:anotherViewController];
-	// [anotherViewController release];
+	
 }
 
 

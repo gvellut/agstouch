@@ -6,7 +6,7 @@
 //  Copyright __MyCompanyName__ 2009. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "FolderViewController.h"
 #import "ArcgisRestAppDelegate.h"
 #import "AGSService.h"
 #import "AGSMapService.h"
@@ -14,7 +14,7 @@
 #import "JSON.h"
 
 
-@implementation RootViewController
+@implementation FolderViewController
 
 @synthesize folder;
 
@@ -156,7 +156,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
 	if(indexPath.section == 0) {
-		RootViewController* subFolderViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+		FolderViewController* subFolderViewController = [[FolderViewController alloc] initWithNibName:@"FolderViewController" bundle:nil];
 		subFolderViewController.folder = [folder.subFolders objectAtIndex:indexPath.row];
 		[self.navigationController pushViewController: subFolderViewController animated:YES];
 		[subFolderViewController release];
