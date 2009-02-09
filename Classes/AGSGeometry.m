@@ -7,7 +7,7 @@
 //
 
 #import "AGSGeometry.h"
-
+#import "AGSSpatialReference.h"
 
 @implementation AGSGeometry
 
@@ -15,6 +15,7 @@
 
 - (AGSGeometry*) initWithWkid:(int) wkid {
 	self.spatialReference = [AGSSpatialReference sRWithWkid:wkid];
+	return self;
 }
 
 - (void) dealloc {

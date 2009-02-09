@@ -7,91 +7,118 @@
 //
 
 #import "MapState.h"
+#import "AGSSpatialReference.h"
 
 @implementation MapState
 
-@synthesize zoom;
-@synthesize tilesPerSide;
-@synthesize mapSource;
+@synthesize mapService;
+@synthesize envelope;
+@synthesize screenEnvelope;
 @synthesize centerCoords;
+@synthesize centerScreenCoords;
 
-- (id)initWithMapSource:(MapSource*) initMapSource 
-			 CenteredAt:(MapCoordinates*) initCenterCoords 
-				 AtZoom:(int) initZoom {
-	assert(initMapSource != 0);
-	assert(initCenterCoords != 0);
-	assert(initZoom >= [initMapSource minZoom] && 
-		   initZoom <= [initMapSource maxZoom]);
-  
-	mapSource = [[MapSource alloc] 
-				 initWithMapDataSource:[initMapSource mapDataSource]];
-	
-	centerCoords = [[MapCoordinates alloc] 
-					initWithLatitude:[initCenterCoords latitude] 
-					Longitude:[initCenterCoords longitude]];
-	
-	zoom = initZoom;
-  tilesPerSide = (1 << zoom); // equivalent to 2^zoom.
-	boundBoxesSet = FALSE;
-	
+- (id)initWithMapService:(AGSMapService*) initMapService
+			 EnvelopedAt:(AGSEnvelope*) initEnvelope {
+	self.mapService = initMapService;
+	self.envelope = [AGSEnvelope envelopeWithXmin:initEnvelope.xmin xmax:initEnvelope.xmax 
+											 ymin:initEnvelope.ymin ymax:initEnvelope.ymax 
+											 wkid:initEnvelope.spatialReference.wkid];
+	self.centerCoords = [envelope center];
 	return self;
 }
 
-- (void)setScreenViewportSize:(CGSize) screenViewportSize 
-	  AndMemoryViewportSize:(CGSize) memoryViewportSize {
+
+- (void)setScreenViewportSize:(CGSize) screenViewportSize {
 	assert(!boundBoxesSet);
-	assert(memoryViewportSize.width >= screenViewportSize.width && 
-		   memoryViewportSize.height >= screenViewportSize.height);
 	
-	// Compute ScreenBoxBoundary.
 	const double screenHalfHeight = screenViewportSize.height / 2;
 	const double screenHalfWidth = screenViewportSize.width / 2;
 	
-	// IMPORTANT: Center point coordinate don't change.
 	const CGPoint centerPoint = CGPointMake(screenHalfWidth, screenHalfHeight);
 	
-	screenBoxBoundary.north = centerPoint.y - screenHalfHeight;
-	screenBoxBoundary.south = centerPoint.y + screenHalfHeight;
-	screenBoxBoundary.west = centerPoint.x - screenHalfWidth;
-	screenBoxBoundary.east = centerPoint.x + screenHalfWidth;
-
-	// Compute MemoryBoxBoundary.
-	const double memoryHalfHeight = memoryViewportSize.height / 2;
-	const double memoryHalfWidth = memoryViewportSize.width / 2;
-
-	memoryBoxBoundary.north = centerPoint.y - memoryHalfHeight;
-	memoryBoxBoundary.south = centerPoint.y + memoryHalfHeight;
-	memoryBoxBoundary.west = centerPoint.x - memoryHalfWidth;
-	memoryBoxBoundary.east = centerPoint.x + memoryHalfWidth;
+	[screenEnvelope release];
+	self.screenEnvelope = [AGSEnvelope alloc];
+	screenEnvelope.ymax = centerPoint.y + screenHalfHeight;
+	screenEnvelope.ymin = centerPoint.y - screenHalfHeight;
+	screenEnvelope.xmin = centerPoint.x - screenHalfWidth;
+	screenEnvelope.xmax = centerPoint.x + screenHalfWidth;
+	self.centerScreenCoords = [screenEnvelope center];
 	
-	boundBoxesSet = TRUE;
+	[self fitRealEnvelopeToScreenEnvelope];
+	
+	boundBoxesSet = YES;
 }
 
-- (void)setCenterCoords:(MapCoordinates*) newCenterCoords {
-	assert(newCenterCoords != 0);
-	assert(boundBoxesSet);
-	
-	if (centerCoords != 0) {
-		[centerCoords release];
+- (void) moveMap:(CGPoint) center {
+	double sDX = screenEnvelope.xmax - screenEnvelope.xmin;
+	double sDY = screenEnvelope.ymax - screenEnvelope.ymin;
+	double rDX = envelope.xmax - envelope.xmin;
+	double rDY = envelope.ymax - envelope.ymin; 
+	double scX = rDX / sDX * (center.x - centerScreenCoords.x);
+	double scY = rDY / sDY * (center.y - centerScreenCoords.y); 
+	centerCoords.x = centerCoords.x - scX;
+	centerCoords.y = centerCoords.y + scY;
+	envelope.xmin = centerCoords.x - rDX / 2;
+	envelope.xmax = centerCoords.x + rDX / 2;
+	envelope.ymax = centerCoords.y + rDY / 2;
+	envelope.ymin = centerCoords.y - rDY / 2;
+}
+
+- (void) zoomMap: (double) zoomScaleFactor {
+
+	if (zoomScaleFactor < 0.25) {
+		zoomScaleFactor = 0.25;
+	} else if (zoomScaleFactor > 4.0) {
+		zoomScaleFactor = 4.0;
 	}
+		
+	double rDX = envelope.xmax - envelope.xmin;
+	double rDY = envelope.ymax - envelope.ymin; 
+	rDX /= zoomScaleFactor;
+	rDY /= zoomScaleFactor;
+	envelope.xmin = centerCoords.x - rDX / 2;
+	envelope.xmax = centerCoords.x + rDX / 2;
+	envelope.ymax = centerCoords.y + rDY / 2;
+	envelope.ymin = centerCoords.y - rDY / 2;
 	
-	centerCoords = [[MapCoordinates alloc] 
-					initWithLatitude:[newCenterCoords latitude] 
-					Longitude:[newCenterCoords longitude]];
 }
 
-- (struct BoxBoundary)screenViewportBoundary {
-	assert(boundBoxesSet);
-	return screenBoxBoundary;
+- (void) fetchMapImage:(NSObject*) delegateDL {
+	[mapService exportImage:envelope 
+					   Size: CGSizeMake(screenEnvelope.xmax - screenEnvelope.xmin, screenEnvelope.ymax - screenEnvelope.ymin)
+				   Callback:delegateDL]; 
 }
-- (struct BoxBoundary)memoryViewportBoundary {
-	assert(boundBoxesSet);
-	return memoryBoxBoundary;
+
+- (void) fitRealEnvelopeToScreenEnvelope {
+	//smallest real envelope that has the same proportions as the screen and contains the previous real envelope
+	
+	double sDX = screenEnvelope.xmax - screenEnvelope.xmin;
+	double sDY = screenEnvelope.ymax - screenEnvelope.ymin;
+	double sP = sDX / sDY;
+	
+	double rDX = envelope.xmax - envelope.xmin;
+	double rDY = envelope.ymax - envelope.ymin;
+	double rP = rDX / rDY;
+	
+	if(sP < rP) {
+		rDY = rDY / sP * rP;
+		envelope.ymin = centerCoords.y - rDY / 2;
+		envelope.ymax = centerCoords.y + rDY / 2;
+	} else {
+		rDX = rDX * sP / rP;
+		envelope.xmin = centerCoords.x - rDX / 2;
+		envelope.xmax = centerCoords.x + rDX / 2;
+	}
+
 }
+
 
 - (void)dealloc {
-	[mapSource release];
+	[mapService release];
+	[envelope release];
+	[screenEnvelope release];
 	[centerCoords release];
+	[centerScreenCoords release];
 	[super dealloc];
 }
 

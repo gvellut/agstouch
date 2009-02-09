@@ -7,51 +7,33 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AGSMapService.h"
+#import "AGSEnvelope.h"
+#import "AGSPoint.h"
 
-#import "BoundBox.h"
-#import "MapCoordinates.h"
-#import "MapSource.h"
-
-struct BoxBoundary {
-	double north;
-	double south;
-	double east;
-	double west;
-};
 
 @interface MapState : NSObject {
-	
-@private
-	int zoom;
-  int tilesPerSide; // number of tiles per side.
-	
-	struct BoxBoundary screenBoxBoundary;
-	struct BoxBoundary memoryBoxBoundary;
-	BOOL boundBoxesSet;
-	
-	MapSource* mapSource;
-	MapCoordinates* centerCoords;
+	AGSMapService* mapService;
+	AGSEnvelope* envelope;
+	AGSEnvelope* screenEnvelope;
+	AGSPoint* centerScreenCoords;
+	AGSPoint* centerCoords;
+	Boolean boundBoxesSet;
 }
 
-@property(readonly) int zoom;
-@property(readonly) int tilesPerSide;
-@property(readonly, getter=screenViewportBoundary) 
-	struct BoxBoundary screenBoxBoundary;
-@property(readonly, getter=memoryViewportBoundary) 
-	struct BoxBoundary memoryBoxBoundary;
-@property(readonly, copy) MapSource* mapSource;
-@property(readwrite,copy, setter=setCenterCoords:) MapCoordinates* centerCoords;
 
-- (id)initWithMapSource:(MapSource*) initMapSource 
-			 CenteredAt:(MapCoordinates*) initCenterCoords 
-				 AtZoom:(int) initZoom;
+@property (retain) AGSMapService* mapService;
+@property (retain) AGSEnvelope* envelope;
+@property (retain) AGSEnvelope* screenEnvelope;
+@property (retain) AGSPoint* centerCoords;
+@property (retain) AGSPoint* centerScreenCoords;
 
-- (void)setScreenViewportSize:(CGSize) screenViewportSize 
-	  AndMemoryViewportSize:(CGSize) memoryViewportSize;
-
-- (void)setCenterCoords:(MapCoordinates*) newCenterCoords;
-
-- (struct BoxBoundary)screenViewportBoundary;
-- (struct BoxBoundary)memoryViewportBoundary;
+- (id)initWithMapService:(AGSMapService*) initMapService
+			 EnvelopedAt:(AGSEnvelope*) initEnvelope;
+- (void) moveMap:(CGPoint) delta;
+- (void) zoomMap: (double) zoomScaleFactor;
+- (void) fitRealEnvelopeToScreenEnvelope;
+- (void)setScreenViewportSize:(CGSize) screenViewportSize;
+- (void) fetchMapImage:(NSObject*) delegateDL;
 
 @end

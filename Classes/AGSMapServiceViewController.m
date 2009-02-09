@@ -461,6 +461,7 @@
 
 - (void) showMap: (id) sender {
 	MapViewController* mapViewController = [[MapViewController alloc] initWithNibName:@"MapViewController" bundle:nil];
+	mapViewController.mapService = mapService;
 	[self.navigationController pushViewController: mapViewController animated:YES];
 	[mapViewController release];
 }

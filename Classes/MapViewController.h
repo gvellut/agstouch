@@ -10,6 +10,11 @@
 #import "MapView.h"
 
 @interface MapViewController : UIViewController {
+	IBOutlet MapView* mapView;
+	AGSMapService* mapService;
 }
+
+@property (retain) MapView* mapView;
+@property (retain) AGSMapService* mapService;
 
 @end

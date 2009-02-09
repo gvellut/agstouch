@@ -61,6 +61,21 @@
 	contentIsFetched = YES;
 	
 }
+
+- (void) exportImage:(AGSEnvelope*) extent Size: (CGSize) size Callback:(NSObject*)delegateDL {
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES; 
+	
+	NSString* bboxPart = [@"bbox=" stringByAppendingFormat:@"%.10f,%.10f,%.10f,%.10f", extent.xmin, extent.ymin, extent.xmax, extent.ymax];
+	NSString* sizePart = [@"size=" stringByAppendingFormat:@"%d,%d", (int)size.width, (int)size.height]; 
+	NSString* formatPart = @"f=image";
+	
+	NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL: 
+									[NSURL URLWithString: 
+									 [URL stringByAppendingFormat:@"export?%@&%@&%@", bboxPart, formatPart, sizePart]]];
+	[request setHTTPMethod: @"GET"];
+	[[NSURLConnection alloc] initWithRequest:request delegate:delegateDL];
+}
 		
 - (void)dealloc {
 	[serviceDescription release];

@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MapContentView.h"
 #import "MapState.h"
-#import "MapSource.h"
+#import "AGSMapService.h"
+#import "AGSEnvelope.h"
 
 enum UserAction {
   UA_MOVE = 0,
@@ -20,25 +20,27 @@ enum UserAction {
 
 @interface MapView : UIView {
   
-@private
-	IBOutlet MapContentView *mapContentView;
+	UIImageView *image;
 	MapState* mapState;
 	
 	CGPoint lastTouchLocation;
-  CGFloat lastDistance;
-  CGFloat zoomScaleFactor;
+    CGFloat lastDistance;
+    CGFloat zoomScaleFactor;
   
-  enum UserAction userAction;
+    enum UserAction userAction;
+	NSMutableData* receivedData;
 }
 
-@property (retain) MapContentView *mapContentView;
-@property (readonly, retain) MapState *mapState;
+@property (retain) IBOutlet UIImageView* image;
+@property (readonly, retain)  MapState *mapState;
 
-- (void)saveMapState;
+- (void) setupMapWithMapService:(AGSMapService*) mapService InitialExtent:(AGSEnvelope*) envelope;
 
-// Private
-- (BOOL) loadMapStateWithSource:(MapSource*) mapSource;
 + (CGFloat)euclideanDistanceFromPoint:(CGPoint)firstPoint
                               ToPoint:(CGPoint)secondPoint;
+
+- (void)moveMap:(CGPoint) transition;
+- (void)moveMapToCenter:(CGPoint) newCenterPoint;
+- (void)zoomOnMapWithScaleFactor:(CGFloat) scaleFactor;
 
 @end

@@ -31,8 +31,6 @@
         UIBarButtonItem *browseButton = [[UIBarButtonItem alloc] initWithTitle:@"Browse" style:UIBarButtonItemStylePlain
 																		target:self action:@selector(browse:)];
         self.navigationItem.rightBarButtonItem = browseButton; 
-		
-		
     }
 }
 

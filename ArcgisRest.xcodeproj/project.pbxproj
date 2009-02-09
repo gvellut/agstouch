@@ -31,26 +31,19 @@
 		6D30849A0F31100B00D2C1D7 /* AGSResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */; };
 		6D50AEB00F3F658E00149EB4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D50AEAF0F3F658E00149EB4 /* MainViewController.xib */; };
 		6D50AEC50F3F677300149EB4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D50AEC40F3F677300149EB4 /* MainViewController.m */; };
+		6D50B60F0F40E68100149EB4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D50B60E0F40E68100149EB4 /* Icon.png */; };
 		6D83B7DA0F3CD4260042D251 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D83B7D90F3CD4260042D251 /* MapViewController.xib */; };
 		6DC9AB4E0F38FC3900F92FCB /* AGSLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */; };
 		6DC9AD620F3CCC9700F92FCB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD4C0F3CCC9700F92FCB /* MapViewController.m */; };
 		6DC9AD630F3CCC9700F92FCB /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD4F0F3CCC9700F92FCB /* MapView.m */; };
-		6DC9AD640F3CCC9700F92FCB /* MapCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD510F3CCC9700F92FCB /* MapCoordinates.m */; };
-		6DC9AD650F3CCC9700F92FCB /* MapTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD530F3CCC9700F92FCB /* MapTile.m */; };
-		6DC9AD660F3CCC9700F92FCB /* MapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD550F3CCC9700F92FCB /* MapSource.m */; };
 		6DC9AD670F3CCC9700F92FCB /* MapState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD580F3CCC9700F92FCB /* MapState.m */; };
-		6DC9AD680F3CCC9700F92FCB /* BoundBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD590F3CCC9700F92FCB /* BoundBox.m */; };
-		6DC9AD690F3CCC9700F92FCB /* MapTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD5B0F3CCC9700F92FCB /* MapTools.m */; };
-		6DC9AD6A0F3CCC9700F92FCB /* MapContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD5D0F3CCC9700F92FCB /* MapContentView.m */; };
-		6DC9AD6B0F3CCC9700F92FCB /* MapLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD5F0F3CCC9700F92FCB /* MapLoader.m */; };
-		6DC9AD6C0F3CCC9700F92FCB /* MapSourceAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9AD610F3CCC9700F92FCB /* MapSourceAttributes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* ArcgisRestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcgisRestAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* ArcgisRestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcgisRestAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* ArcgisRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcgisRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* AGS Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGS Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E55F0DE3E45000AC0155 /* FolderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FolderViewController.xib; sourceTree = "<group>"; };
@@ -90,6 +83,7 @@
 		6D50AEAF0F3F658E00149EB4 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		6D50AEC30F3F677300149EB4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		6D50AEC40F3F677300149EB4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6D50B60E0F40E68100149EB4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		6D83B7D90F3CD4260042D251 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSLayer.h; sourceTree = "<group>"; };
 		6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSLayer.m; sourceTree = "<group>"; };
@@ -97,24 +91,8 @@
 		6DC9AD4C0F3CCC9700F92FCB /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		6DC9AD4E0F3CCC9700F92FCB /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
 		6DC9AD4F0F3CCC9700F92FCB /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
-		6DC9AD500F3CCC9700F92FCB /* MapCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapCoordinates.h; sourceTree = "<group>"; };
-		6DC9AD510F3CCC9700F92FCB /* MapCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapCoordinates.m; sourceTree = "<group>"; };
-		6DC9AD520F3CCC9700F92FCB /* MapTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTile.h; sourceTree = "<group>"; };
-		6DC9AD530F3CCC9700F92FCB /* MapTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTile.m; sourceTree = "<group>"; };
-		6DC9AD540F3CCC9700F92FCB /* MapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapSource.h; sourceTree = "<group>"; };
-		6DC9AD550F3CCC9700F92FCB /* MapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapSource.m; sourceTree = "<group>"; };
 		6DC9AD560F3CCC9700F92FCB /* MapState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapState.h; sourceTree = "<group>"; };
-		6DC9AD570F3CCC9700F92FCB /* BoundBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundBox.h; sourceTree = "<group>"; };
 		6DC9AD580F3CCC9700F92FCB /* MapState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapState.m; sourceTree = "<group>"; };
-		6DC9AD590F3CCC9700F92FCB /* BoundBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoundBox.m; sourceTree = "<group>"; };
-		6DC9AD5A0F3CCC9700F92FCB /* MapTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTools.h; sourceTree = "<group>"; };
-		6DC9AD5B0F3CCC9700F92FCB /* MapTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTools.m; sourceTree = "<group>"; };
-		6DC9AD5C0F3CCC9700F92FCB /* MapContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapContentView.h; sourceTree = "<group>"; };
-		6DC9AD5D0F3CCC9700F92FCB /* MapContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapContentView.m; sourceTree = "<group>"; };
-		6DC9AD5E0F3CCC9700F92FCB /* MapLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLoader.h; sourceTree = "<group>"; };
-		6DC9AD5F0F3CCC9700F92FCB /* MapLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLoader.m; sourceTree = "<group>"; };
-		6DC9AD600F3CCC9700F92FCB /* MapSourceAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapSourceAttributes.h; sourceTree = "<group>"; };
-		6DC9AD610F3CCC9700F92FCB /* MapSourceAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapSourceAttributes.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,7 +150,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* ArcgisRest.app */,
+				1D6058910D05DD3D006BFB54 /* AGS Touch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,6 +179,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6D50B60E0F40E68100149EB4 /* Icon.png */,
 				6D50AEAF0F3F658E00149EB4 /* MainViewController.xib */,
 				6D83B7D90F3CD4260042D251 /* MapViewController.xib */,
 				2899E55F0DE3E45000AC0155 /* FolderViewController.xib */,
@@ -240,26 +219,10 @@
 			children = (
 				6DC9AD4E0F3CCC9700F92FCB /* MapView.h */,
 				6DC9AD4F0F3CCC9700F92FCB /* MapView.m */,
-				6DC9AD500F3CCC9700F92FCB /* MapCoordinates.h */,
-				6DC9AD510F3CCC9700F92FCB /* MapCoordinates.m */,
-				6DC9AD520F3CCC9700F92FCB /* MapTile.h */,
-				6DC9AD530F3CCC9700F92FCB /* MapTile.m */,
-				6DC9AD540F3CCC9700F92FCB /* MapSource.h */,
-				6DC9AD550F3CCC9700F92FCB /* MapSource.m */,
 				6DC9AD560F3CCC9700F92FCB /* MapState.h */,
-				6DC9AD570F3CCC9700F92FCB /* BoundBox.h */,
 				6DC9AD580F3CCC9700F92FCB /* MapState.m */,
 				6DC9AD4B0F3CCC9700F92FCB /* MapViewController.h */,
 				6DC9AD4C0F3CCC9700F92FCB /* MapViewController.m */,
-				6DC9AD590F3CCC9700F92FCB /* BoundBox.m */,
-				6DC9AD5A0F3CCC9700F92FCB /* MapTools.h */,
-				6DC9AD5B0F3CCC9700F92FCB /* MapTools.m */,
-				6DC9AD5C0F3CCC9700F92FCB /* MapContentView.h */,
-				6DC9AD5D0F3CCC9700F92FCB /* MapContentView.m */,
-				6DC9AD5E0F3CCC9700F92FCB /* MapLoader.h */,
-				6DC9AD5F0F3CCC9700F92FCB /* MapLoader.m */,
-				6DC9AD600F3CCC9700F92FCB /* MapSourceAttributes.h */,
-				6DC9AD610F3CCC9700F92FCB /* MapSourceAttributes.m */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -281,7 +244,7 @@
 			);
 			name = ArcgisRest;
 			productName = ArcgisRest;
-			productReference = 1D6058910D05DD3D006BFB54 /* ArcgisRest.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* AGS Touch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -318,6 +281,7 @@
 				6D0180B80F3604E70032B3B4 /* AGSMapServiceViewController.xib in Resources */,
 				6D83B7DA0F3CD4260042D251 /* MapViewController.xib in Resources */,
 				6D50AEB00F3F658E00149EB4 /* MainViewController.xib in Resources */,
+				6D50B60F0F40E68100149EB4 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,15 +308,7 @@
 				6DC9AB4E0F38FC3900F92FCB /* AGSLayer.m in Sources */,
 				6DC9AD620F3CCC9700F92FCB /* MapViewController.m in Sources */,
 				6DC9AD630F3CCC9700F92FCB /* MapView.m in Sources */,
-				6DC9AD640F3CCC9700F92FCB /* MapCoordinates.m in Sources */,
-				6DC9AD650F3CCC9700F92FCB /* MapTile.m in Sources */,
-				6DC9AD660F3CCC9700F92FCB /* MapSource.m in Sources */,
 				6DC9AD670F3CCC9700F92FCB /* MapState.m in Sources */,
-				6DC9AD680F3CCC9700F92FCB /* BoundBox.m in Sources */,
-				6DC9AD690F3CCC9700F92FCB /* MapTools.m in Sources */,
-				6DC9AD6A0F3CCC9700F92FCB /* MapContentView.m in Sources */,
-				6DC9AD6B0F3CCC9700F92FCB /* MapLoader.m in Sources */,
-				6DC9AD6C0F3CCC9700F92FCB /* MapSourceAttributes.m in Sources */,
 				6D265E4E0F3CE79F009D5F91 /* SBJSON.m in Sources */,
 				6D265E4F0F3CE79F009D5F91 /* NSString+SBJSON.m in Sources */,
 				6D265E500F3CE79F009D5F91 /* NSObject+SBJSON.m in Sources */,
@@ -377,7 +333,7 @@
 				GCC_PREFIX_HEADER = ArcgisRest_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = ArcgisRest;
+				PRODUCT_NAME = "AGS Touch";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E209E2C4-2558-4D63-8A16-7E2923D9B428";
 			};
 			name = Debug;
@@ -390,7 +346,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ArcgisRest_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = ArcgisRest;
+				PRODUCT_NAME = "AGS Touch";
 			};
 			name = Release;
 		};

@@ -44,4 +44,6 @@
 -(AGSMapService*) initMapServiceWithURL:(NSString*)serviceURL name:(NSString*)name type:(NSString*)type ;
 
 - (void) handleResourceData: (NSDictionary*) data;
+
+- (void) exportImage:(AGSEnvelope*) extent Size: (CGSize) size Callback:(NSObject*)delegateDL;
 @end

@@ -38,6 +38,13 @@
 									wkid:[[[e objectForKey:@"spatialReference"] objectForKey:@"wkid"] intValue]];
 }
 
+- (AGSPoint*) center {
+	AGSPoint* point = [[AGSPoint alloc] autorelease];
+	point.x = (xmin + xmax) / 2.0;
+	point.y = (ymin + ymax) / 2.0;
+	return point;
+}
+
 - (void) dealloc {
 	[super dealloc];
 }

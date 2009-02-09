@@ -10,35 +10,34 @@
 
 @implementation MapViewController
 
+@synthesize mapView;
+@synthesize mapService;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil 
                bundle:(NSBundle *)nibBundleOrNil {
-	if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-		// Initialization code
-	}
+	[super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
 	return self;
 }
 
-- (void)viewDidLoad {
-	NSLog(@"MapViewController::viewDidLoad"); // remove
-	
-	self.navigationItem.title = @"FreeMaps";
+- (void)viewDidLoad {	
+	self.navigationItem.title = @"Map";
+	[mapView setupMapWithMapService:mapService InitialExtent:mapService.initialExtent];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:
     (UIInterfaceOrientation)interfaceOrientation {
-	// Return YES for supported orientations
 	return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
-  // Releases the view if it doesn't have a superview
-	// Release anything that's not essential, such as cached data
 }
 
 
 - (void)dealloc {
+	[mapView release];
+	[mapService release];
 	[super dealloc];
 }
 
