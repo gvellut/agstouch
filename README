@@ -9,3 +9,4 @@ License : MIT
 Ack : 
 - App icon from the CandyMilk v2 set by TofeeNut (http://toffeenut.deviantart.com/art/CandyMilk-V2-iPhone-Theme-87442618) - CC by-nc-nd 3.0
 - Map view controller modified from freemap-iphone from the Route Me project (http://code.google.com/p/route-me/) - New BSD
+- JSON parsing provided by json-framework (http://code.google.com/p/json-framework/) by sbrautaset - New BSD
