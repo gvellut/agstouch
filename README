@@ -1,0 +1,11 @@
+AGS Touch : ArcGIS REST API browser for iPhone / iPodTouch
+
+Version 0.1 : Functioning browser for directories & MapServer + Server choice + Map (no support for tiles)
+
+Site : http://code.google.com/p/agstouch/
+Author : Guilhem Vellut <guilhem.vellut@gmail.com>
+License : MIT
+
+Ack : 
+- App icon from the CandyMilk v2 set by TofeeNut (http://toffeenut.deviantart.com/art/CandyMilk-V2-iPhone-Theme-87442618) - CC by-nc-nd 3.0
+- Map view controller modified from freemap-iphone from the Route Me project (http://code.google.com/p/route-me/) - New BSD
