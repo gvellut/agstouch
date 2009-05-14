@@ -43,10 +43,19 @@
 	
 	if(serviceDescriptions != nil) {
 		for(NSDictionary* serviceDescription in serviceDescriptions) {
-			NSArray* serviceNameComponents = [[serviceDescription valueForKey:@"name"]  pathComponents];
+			NSString* fullName = [serviceDescription valueForKey:@"name"];
+			NSArray* serviceNameComponents = [fullName  pathComponents];
 			NSString* serviceName = [serviceNameComponents objectAtIndex: [serviceNameComponents count] - 1];
+			NSString* subPath = serviceName;
+			int i = 2;
+			while([serviceNameComponents count ] >= i && 
+				  ![(NSString*)[serviceNameComponents objectAtIndex: [serviceNameComponents count] - i] isEqual: self.name]){
+			   subPath = [[serviceNameComponents objectAtIndex: [serviceNameComponents count] - i] stringByAppendingPathComponent: subPath];
+				i++;
+			} 
+			
 			NSString* serviceType = [serviceDescription valueForKey:@"type"];
-			NSString* serviceURL = [[self.URL stringByAppendingString:serviceName] stringByAppendingPathComponent:serviceType];
+			NSString* serviceURL = [[self.URL stringByAppendingString:subPath] stringByAppendingPathComponent:serviceType];
 			AGSService* agsService = [AGSService serviceWithURL:serviceURL name: serviceName type: serviceType];
 		[services addObject:agsService];		}
 	}

@@ -66,6 +66,17 @@
 	
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO; 
 	
+	UIAlertView *networkAlert = [[UIAlertView alloc]
+							  initWithTitle:@"Cannot Open Resource"
+							  message:@"AGS Touch cannot open the requested ArcGIS resource because it is not connected to the Internet."
+							  delegate:nil
+							  cancelButtonTitle:@"OK"
+							  otherButtonTitles:nil];
+	
+	[networkAlert show];
+	[networkAlert autorelease];
+	
+	
     [connection release];
     [receivedData release];
 }
