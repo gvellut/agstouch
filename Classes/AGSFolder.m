@@ -47,11 +47,10 @@
 			NSArray* serviceNameComponents = [fullName  pathComponents];
 			NSString* serviceName = [serviceNameComponents objectAtIndex: [serviceNameComponents count] - 1];
 			NSString* subPath = serviceName;
-			int i = 2;
-			while([serviceNameComponents count ] >= i && 
-				  ![(NSString*)[serviceNameComponents objectAtIndex: [serviceNameComponents count] - i] isEqual: self.name]){
-			   subPath = [[serviceNameComponents objectAtIndex: [serviceNameComponents count] - i] stringByAppendingPathComponent: subPath];
-				i++;
+			
+			if([serviceNameComponents count ] >= 2 && 
+				  ![(NSString*)[serviceNameComponents objectAtIndex: [serviceNameComponents count] - 2] isEqual: self.name]){
+				continue;
 			} 
 			
 			NSString* serviceType = [serviceDescription valueForKey:@"type"];
