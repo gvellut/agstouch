@@ -11,13 +11,15 @@
 
 @interface AGSLayer : AGSResource {
 	int layerId;
+	Boolean isGroup;
 	Boolean defaultVisibility;
 }
 
 @property int layerId;
 @property Boolean defaultVisibility;
+@property Boolean isGroup;
 
--(AGSLayer*) initLayerWithURL:(NSString*)layerURL layerId: (int) layerId_ name:(NSString*)name fetchContent:(Boolean) fetchContent;
+-(AGSLayer*) initLayerWithURL:(NSString*)layerURL layerId: (int) layerId_ name:(NSString*)name isGroup:(Boolean)isGroup fetchContent:(Boolean) fetchContent;
 
 
 @end

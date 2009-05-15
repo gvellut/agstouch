@@ -46,4 +46,6 @@
 - (void) handleResourceData: (NSDictionary*) data;
 
 - (void) exportImage:(AGSEnvelope*) extent Size: (CGSize) size Callback:(NSObject*)delegateDL;
+
+
 @end

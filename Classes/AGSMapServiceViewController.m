@@ -21,13 +21,14 @@
 #define LAYERS 3
 #define SPATIAL_REFERENCE 4
 #define UNITS 5
-#define TILE_INFO 6
-#define INITIAL_EXTENT 7
-#define FULL_EXTENT 8
-#define DOCUMENT_INFO 9
+#define INITIAL_EXTENT 6
+#define FULL_EXTENT 7
+#define DOCUMENT_INFO 8
 
-#define DESCRIPTION 10 //not displayed
-#define NUM_SECTIONS 10
+#define TILE_INFO 9  //not displayed
+#define DESCRIPTION 10  //not displayed
+
+#define NUM_SECTIONS 9
 
 #define BOLD_TITLE_CELL_ID @"BoldTitleCell"
 #define NORMAL_CELL_ID @"NormalCell"
@@ -248,7 +249,10 @@
 			return [self getLongTextCell: tableView forString:mapService.copyrightText];
 		case LAYERS : {
 			UITableViewCell* cell = [self getNormalCell: tableView];
-			cell.text = ((AGSLayer*)[mapService.layers objectAtIndex:indexPath.row]).name;
+			AGSLayer* agsLayer = (AGSLayer*)[mapService.layers objectAtIndex:indexPath.row];
+			cell.text = agsLayer.name;
+			if([agsLayer isGroup])
+				cell.text = [cell.text stringByAppendingString:@" (*)"];
 			return cell;
 		} case SPATIAL_REFERENCE : {
 			UITableViewCell* cell = [self getNormalCell: tableView];

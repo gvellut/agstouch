@@ -43,7 +43,9 @@
 		int layerId = [[layerDic objectForKey:@"id"] intValue];
 		NSString* layerURL = [self.URL  stringByAppendingPathComponent:[[NSNumber numberWithInt:layerId] stringValue]];
 		NSString* layerName = [layerDic objectForKey:@"name"];
-		[self.layers addObject: [[[AGSLayer alloc] initLayerWithURL:layerURL layerId:layerId name:layerName fetchContent:NO] autorelease]];
+		NSObject * subLayerIds = [layerDic objectForKey:@"subLayerIds"];
+		Boolean isGroup = subLayerIds != [NSNull null] ;
+		[self.layers addObject: [[[AGSLayer alloc] initLayerWithURL:layerURL layerId:layerId name:layerName isGroup:isGroup fetchContent:NO] autorelease]];
 	}
 	int wkid = [[[raw objectForKey:@"spatialReference"] objectForKey:@"wkid"] intValue];
 	self.spatialReference = [AGSSpatialReference sRWithWkid: wkid];
