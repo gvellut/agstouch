@@ -46,9 +46,9 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Distribution;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = 6DAB96220F2CF06C002CD197 /* ArcgisRest */;
-		activeSDKPreference = iphoneos2.2;
+		activeSDKPreference = iphonesimulator2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* ArcgisRest */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* ArcgisRest */,
@@ -56,7 +56,7 @@
 		breakpoints = (
 			6D50B1EB0F3FD71400149EB4 /* MapState.m:53 */,
 			6D50B24A0F3FDB4900149EB4 /* MapView.m:60 */,
-			6D50B2720F3FDCCA00149EB4 /* AGSMapService.m:69 */,
+			6D50B2720F3FDCCA00149EB4 /* AGSMapService.m:71 */,
 			6D50B2C70F3FDF0000149EB4 /* MapView.m:49 */,
 			6D50B2C90F3FDF0200149EB4 /* MapView.m:54 */,
 			6D50B3B60F40CFB000149EB4 /* MapState.m:87 */,
@@ -78,6 +78,8 @@
 			layerName,
 			image,
 			image.center,
+			"[layerDic objectForKey:@\"subLayerIds\"]",
+			layerDic,
 		);
 		perUserDictionary = {
 			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
@@ -308,6 +310,188 @@
 			6DB201370FBCD5DC00EF80C5 /* PBXTextBookmark */ = 6DB201370FBCD5DC00EF80C5 /* PBXTextBookmark */;
 			6DB201380FBCD5DC00EF80C5 /* PBXTextBookmark */ = 6DB201380FBCD5DC00EF80C5 /* PBXTextBookmark */;
 			6DB201390FBCD5DC00EF80C5 /* PBXTextBookmark */ = 6DB201390FBCD5DC00EF80C5 /* PBXTextBookmark */;
+			6DB2013A0FBCD6A700EF80C5 /* PBXBookmark */ = 6DB2013A0FBCD6A700EF80C5 /* PBXBookmark */;
+			6DB2014C0FBDE3B800EF80C5 /* PBXBookmark */ = 6DB2014C0FBDE3B800EF80C5 /* PBXBookmark */;
+			6DB2014D0FBDE3BF00EF80C5 /* PBXBookmark */ = 6DB2014D0FBDE3BF00EF80C5 /* PBXBookmark */;
+			6DB201550FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201550FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201560FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201560FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201570FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201570FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201580FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201580FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201590FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201590FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB2015A0FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB2015A0FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB2015B0FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB2015B0FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB2015E0FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB2015E0FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB2015F0FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB2015F0FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201600FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201600FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201610FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201610FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201640FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201640FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201670FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201670FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB2016A0FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB2016A0FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB2016B0FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB2016B0FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB2016E0FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB2016E0FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB2016F0FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB2016F0FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201700FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201700FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201710FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201710FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201720FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201720FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201750FBDE47A00EF80C5 /* PlistBookmark */ = 6DB201750FBDE47A00EF80C5 /* PlistBookmark */;
+			6DB201760FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201760FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201770FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201770FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201780FBDE47A00EF80C5 /* PBXTextBookmark */ = 6DB201780FBDE47A00EF80C5 /* PBXTextBookmark */;
+			6DB201810FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB201810FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB201820FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB201820FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB201830FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB201830FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB201840FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB201840FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB201850FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB201850FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB201860FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB201860FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB201870FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB201870FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB201880FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB201880FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB201890FBDE4D900EF80C5 /* PlistBookmark */ = 6DB201890FBDE4D900EF80C5 /* PlistBookmark */;
+			6DB2018A0FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB2018A0FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB2018B0FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB2018B0FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB2018C0FBDE4D900EF80C5 /* PBXTextBookmark */ = 6DB2018C0FBDE4D900EF80C5 /* PBXTextBookmark */;
+			6DB201970FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB201970FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB201980FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB201980FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB201990FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB201990FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB2019A0FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB2019A0FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB2019B0FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB2019B0FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB2019C0FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB2019C0FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB2019D0FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB2019D0FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB2019E0FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB2019E0FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB2019F0FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB2019F0FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB201A00FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB201A00FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB201A10FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB201A10FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB201A20FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB201A20FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB201A30FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB201A30FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB201A40FBDE55400EF80C5 /* PlistBookmark */ = 6DB201A40FBDE55400EF80C5 /* PlistBookmark */;
+			6DB201A50FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB201A50FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB201A60FBDE55400EF80C5 /* PBXTextBookmark */ = 6DB201A60FBDE55400EF80C5 /* PBXTextBookmark */;
+			6DB201A80FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201A80FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201A90FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201A90FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201AA0FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201AA0FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201AB0FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201AB0FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201AC0FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201AC0FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201AD0FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201AD0FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201AE0FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201AE0FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201AF0FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201AF0FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201B00FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201B00FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201B10FBDE56E00EF80C5 /* PlistBookmark */ = 6DB201B10FBDE56E00EF80C5 /* PlistBookmark */;
+			6DB201B20FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201B20FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201B30FBDE56E00EF80C5 /* PBXTextBookmark */ = 6DB201B30FBDE56E00EF80C5 /* PBXTextBookmark */;
+			6DB201B40FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201B40FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201B50FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201B50FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201B60FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201B60FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201B70FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201B70FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201B80FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201B80FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201B90FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201B90FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201BA0FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201BA0FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201BB0FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201BB0FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201BC0FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201BC0FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201BD0FBDE57800EF80C5 /* PlistBookmark */ = 6DB201BD0FBDE57800EF80C5 /* PlistBookmark */;
+			6DB201BE0FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201BE0FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201BF0FBDE57800EF80C5 /* PBXTextBookmark */ = 6DB201BF0FBDE57800EF80C5 /* PBXTextBookmark */;
+			6DB201C20FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201C20FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201C30FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201C30FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201C40FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201C40FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201C50FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201C50FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201C60FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201C60FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201C70FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201C70FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201C80FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201C80FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201C90FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201C90FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201CA0FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201CA0FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201CB0FBDE59500EF80C5 /* PlistBookmark */ = 6DB201CB0FBDE59500EF80C5 /* PlistBookmark */;
+			6DB201CC0FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201CC0FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201CD0FBDE59500EF80C5 /* PBXTextBookmark */ = 6DB201CD0FBDE59500EF80C5 /* PBXTextBookmark */;
+			6DB201D10FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201D10FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201D20FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201D20FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201D30FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201D30FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201D40FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201D40FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201D50FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201D50FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201D60FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201D60FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201D70FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201D70FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201D80FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201D80FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201D90FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201D90FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201DA0FBDE6EB00EF80C5 /* PlistBookmark */ = 6DB201DA0FBDE6EB00EF80C5 /* PlistBookmark */;
+			6DB201DB0FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201DB0FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201DC0FBDE6EB00EF80C5 /* PBXTextBookmark */ = 6DB201DC0FBDE6EB00EF80C5 /* PBXTextBookmark */;
+			6DB201DF0FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201DF0FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201E00FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201E00FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201E10FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201E10FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201E20FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201E20FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201E30FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201E30FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201E40FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201E40FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201E50FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201E50FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201E60FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201E60FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201E70FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201E70FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201E80FBDE78200EF80C5 /* PlistBookmark */ = 6DB201E80FBDE78200EF80C5 /* PlistBookmark */;
+			6DB201E90FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201E90FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201EA0FBDE78200EF80C5 /* PBXTextBookmark */ = 6DB201EA0FBDE78200EF80C5 /* PBXTextBookmark */;
+			6DB201EC0FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201EC0FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201ED0FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201ED0FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201EE0FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201EE0FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201EF0FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201EF0FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201F00FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201F00FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201F10FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201F10FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201F20FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201F20FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201F30FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201F30FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201F40FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201F40FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201F50FBDE79900EF80C5 /* PlistBookmark */ = 6DB201F50FBDE79900EF80C5 /* PlistBookmark */;
+			6DB201F60FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201F60FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201F70FBDE79900EF80C5 /* PBXTextBookmark */ = 6DB201F70FBDE79900EF80C5 /* PBXTextBookmark */;
+			6DB201F90FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB201F90FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB201FA0FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB201FA0FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB201FB0FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB201FB0FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB201FC0FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB201FC0FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB201FD0FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB201FD0FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB201FE0FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB201FE0FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB201FF0FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB201FF0FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB202000FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB202000FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB202010FBDE7E600EF80C5 /* PlistBookmark */ = 6DB202010FBDE7E600EF80C5 /* PlistBookmark */;
+			6DB202020FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB202020FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB202030FBDE7E600EF80C5 /* PBXTextBookmark */ = 6DB202030FBDE7E600EF80C5 /* PBXTextBookmark */;
+			6DB202070FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB202070FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB202080FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB202080FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB202090FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB202090FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB2020A0FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB2020A0FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB2020B0FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB2020B0FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB2020C0FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB2020C0FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB2020D0FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB2020D0FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB2020E0FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB2020E0FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB2020F0FBDE80800EF80C5 /* PlistBookmark */ = 6DB2020F0FBDE80800EF80C5 /* PlistBookmark */;
+			6DB202100FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB202100FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB202110FBDE80800EF80C5 /* PBXTextBookmark */ = 6DB202110FBDE80800EF80C5 /* PBXTextBookmark */;
+			6DB202140FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB202140FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB202150FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB202150FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB202160FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB202160FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB202170FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB202170FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB202180FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB202180FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB202190FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB202190FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB2021A0FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB2021A0FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB2021B0FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB2021B0FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB2021C0FBDE96600EF80C5 /* PlistBookmark */ = 6DB2021C0FBDE96600EF80C5 /* PlistBookmark */;
+			6DB2021D0FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB2021D0FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB2021E0FBDE96600EF80C5 /* PBXTextBookmark */ = 6DB2021E0FBDE96600EF80C5 /* PBXTextBookmark */;
+			6DB202200FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB202200FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB202210FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB202210FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB202220FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB202220FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB202230FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB202230FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB202240FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB202240FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB202250FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB202250FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB202260FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB202260FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB202270FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB202270FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB202280FBDE98600EF80C5 /* PlistBookmark */ = 6DB202280FBDE98600EF80C5 /* PlistBookmark */;
+			6DB202290FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB202290FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB2022A0FBDE98600EF80C5 /* PBXTextBookmark */ = 6DB2022A0FBDE98600EF80C5 /* PBXTextBookmark */;
+			6DB2022B0FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB2022B0FBDE9B200EF80C5 /* PBXTextBookmark */;
+			6DB2022C0FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB2022C0FBDE9B200EF80C5 /* PBXTextBookmark */;
+			6DB2022D0FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB2022D0FBDE9B200EF80C5 /* PBXTextBookmark */;
+			6DB2022E0FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB2022E0FBDE9B200EF80C5 /* PBXTextBookmark */;
+			6DB2022F0FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB2022F0FBDE9B200EF80C5 /* PBXTextBookmark */;
+			6DB202300FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB202300FBDE9B200EF80C5 /* PBXTextBookmark */;
+			6DB202310FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB202310FBDE9B200EF80C5 /* PBXTextBookmark */;
+			6DB202320FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB202320FBDE9B200EF80C5 /* PBXTextBookmark */;
+			6DB202330FBDE9B200EF80C5 /* PlistBookmark */ = 6DB202330FBDE9B200EF80C5 /* PlistBookmark */;
+			6DB202340FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB202340FBDE9B200EF80C5 /* PBXTextBookmark */;
+			6DB202350FBDE9B200EF80C5 /* PBXTextBookmark */ = 6DB202350FBDE9B200EF80C5 /* PBXTextBookmark */;
 			6DB714220F9E619800D42139 = 6DB714220F9E619800D42139 /* PBXTextBookmark */;
 			6DB714230F9E619800D42139 = 6DB714230F9E619800D42139 /* PBXBookmark */;
 			6DB714240F9E619800D42139 = 6DB714240F9E619800D42139 /* PBXTextBookmark */;
@@ -331,17 +515,17 @@
 	};
 	6D0180050F35EF010032B3B4 /* AGSMapService.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {855, 728}}";
-			sepNavSelRange = "{1420, 0}";
-			sepNavVisRange = "{0, 992}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 728}}";
+			sepNavSelRange = "{685, 0}";
+			sepNavVisRange = "{251, 1172}";
 			sepNavWindowFrame = "{{255, 82}, {914, 657}}";
 		};
 	};
 	6D0180060F35EF010032B3B4 /* AGSMapService.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {846, 1372}}";
-			sepNavSelRange = "{767, 0}";
-			sepNavVisRange = "{2139, 1101}";
+			sepNavIntBoundsRect = "{{0, 0}, {942, 1386}}";
+			sepNavSelRange = "{1535, 0}";
+			sepNavVisRange = "{586, 1718}";
 			sepNavWindowFrame = "{{513, 297}, {897, 659}}";
 		};
 	};
@@ -553,9 +737,9 @@
 	};
 	6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {852, 7098}}";
-			sepNavSelRange = "{2947, 0}";
-			sepNavVisRange = "{2688, 1212}";
+			sepNavIntBoundsRect = "{{0, 0}, {852, 7266}}";
+			sepNavSelRange = "{4154, 0}";
+			sepNavVisRange = "{3357, 1322}";
 			sepNavWindowFrame = "{{479, 124}, {894, 793}}";
 		};
 	};
@@ -693,7 +877,7 @@
 	};
 	6D3084870F310CA000D2C1D7 /* AGSFolder.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {914, 583}}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 560}}";
 			sepNavSelRange = "{413, 0}";
 			sepNavVisRange = "{0, 515}";
 			sepNavWindowFrame = "{{578, 110}, {973, 711}}";
@@ -702,7 +886,7 @@
 	6D3084880F310CA000D2C1D7 /* AGSFolder.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {914, 1008}}";
-			sepNavSelRange = "{625, 0}";
+			sepNavSelRange = "{1022, 0}";
 			sepNavVisRange = "{424, 1903}";
 			sepNavWindowFrame = "{{186, 261}, {973, 711}}";
 		};
@@ -717,7 +901,7 @@
 	6D3084910F310E7100D2C1D7 /* AGSService.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {793, 616}}";
-			sepNavSelRange = "{165, 0}";
+			sepNavSelRange = "{596, 0}";
 			sepNavVisRange = "{38, 928}";
 			sepNavWindowFrame = "{{894, 272}, {704, 620}}";
 		};
@@ -806,7 +990,7 @@
 		isa = PBXTextBookmark;
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		rLen = 12;
-		rLoc = 2928;
+		rLoc = 2946;
 		rType = 0;
 	};
 	6D4E614B0FB1FC8100599BA8 /* PBXTextBookmark */ = {
@@ -821,7 +1005,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 465";
 		rLen = 0;
-		rLoc = 15526;
+		rLoc = 15663;
 		rType = 0;
 		vrLen = 687;
 		vrLoc = 14662;
@@ -845,7 +1029,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 465";
 		rLen = 0;
-		rLoc = 15526;
+		rLoc = 15663;
 		rType = 0;
 		vrLen = 687;
 		vrLoc = 14662;
@@ -945,7 +1129,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 102";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2965;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 2688;
@@ -1119,7 +1303,7 @@
 		ignoreCount = 0;
 		lineNumber = 53;
 		location = ArcgisRest;
-		modificationTime = 264033532.906873;
+		modificationTime = 264104297.054161;
 		state = 2;
 	};
 	6D50B24A0F3FDB4900149EB4 /* MapView.m:60 */ = {
@@ -1136,10 +1320,10 @@
 		ignoreCount = 0;
 		lineNumber = 60;
 		location = ArcgisRest;
-		modificationTime = 264033532.90689;
+		modificationTime = 264104297.054179;
 		state = 2;
 	};
-	6D50B2720F3FDCCA00149EB4 /* AGSMapService.m:69 */ = {
+	6D50B2720F3FDCCA00149EB4 /* AGSMapService.m:71 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -1151,9 +1335,9 @@
 		functionName = "-exportImage:Callback:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 69;
+		lineNumber = 71;
 		location = ArcgisRest;
-		modificationTime = 264033532.906897;
+		modificationTime = 264104297.054185;
 		state = 2;
 	};
 	6D50B2950F3FDE1000149EB4 /* PBXTextBookmark */ = {
@@ -1190,7 +1374,7 @@
 		ignoreCount = 0;
 		lineNumber = 49;
 		location = ArcgisRest;
-		modificationTime = 264033532.906902;
+		modificationTime = 264104297.054279;
 		state = 2;
 	};
 	6D50B2C90F3FDF0200149EB4 /* MapView.m:54 */ = {
@@ -1207,7 +1391,7 @@
 		ignoreCount = 0;
 		lineNumber = 54;
 		location = ArcgisRest;
-		modificationTime = 264033532.906907;
+		modificationTime = 264104297.054287;
 		state = 2;
 	};
 	6D50B3B60F40CFB000149EB4 /* MapState.m:87 */ = {
@@ -1224,7 +1408,7 @@
 		ignoreCount = 0;
 		lineNumber = 87;
 		location = ArcgisRest;
-		modificationTime = 264033532.906912;
+		modificationTime = 264104297.054293;
 		state = 2;
 	};
 	6D50B3F70F40D14100149EB4 /* PBXTextBookmark */ = {
@@ -1251,7 +1435,7 @@
 		ignoreCount = 0;
 		lineNumber = 38;
 		location = ArcgisRest;
-		modificationTime = 264033532.906916;
+		modificationTime = 264104297.054298;
 		state = 2;
 	};
 	6D50B4BE0F40D61D00149EB4 /* MapView.m:79 */ = {
@@ -1268,7 +1452,7 @@
 		ignoreCount = 0;
 		lineNumber = 79;
 		location = ArcgisRest;
-		modificationTime = 264033532.906926;
+		modificationTime = 264104297.054304;
 		state = 2;
 	};
 	6D50B4F50F40D73D00149EB4 /* PBXTextBookmark */ = {
@@ -1276,7 +1460,7 @@
 		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
 		name = "AGSMapService.m: 69";
 		rLen = 137;
-		rLoc = 2348;
+		rLoc = 2482;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 2170;
@@ -1395,7 +1579,7 @@
 			"-NSBindingDebugLogLevel 1",
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -1487,7 +1671,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 102";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2965;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 2688;
@@ -1531,7 +1715,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 102";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2965;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 2688;
@@ -1617,7 +1801,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 102";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2965;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 2688;
@@ -1677,7 +1861,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 102";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2965;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 2688;
@@ -1737,7 +1921,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 102";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2965;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 2688;
@@ -1797,7 +1981,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 102";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2965;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 2688;
@@ -1857,7 +2041,7 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 102";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2965;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 2688;
@@ -1917,10 +2101,1837 @@
 		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
 		name = "AGSMapServiceViewController.m: 102";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2965;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 2688;
+	};
+	6DB2013A0FBCD6A700EF80C5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+	};
+	6DB2014C0FBDE3B800EF80C5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+	};
+	6DB2014D0FBDE3BF00EF80C5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+	};
+	6DB201550FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 23";
+		rLen = 0;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 312;
+		vrLoc = 19;
+	};
+	6DB201560FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 51";
+		rLen = 5;
+		rLoc = 1423;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 853;
+	};
+	6DB201570FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 23";
+		rLen = 0;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 312;
+		vrLoc = 19;
+	};
+	6DB201580FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 51";
+		rLen = 5;
+		rLoc = 1423;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 853;
+	};
+	6DB201590FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	6DB2015A0FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 255";
+		rLen = 0;
+		rLoc = 7054;
+		rType = 0;
+		vrLen = 1714;
+		vrLoc = 6043;
+	};
+	6DB2015B0FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 251";
+		rLen = 0;
+		rLoc = 6827;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 6355;
+	};
+	6DB2015E0FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 45";
+		rLen = 0;
+		rLoc = 1501;
+		rType = 0;
+		vrLen = 1807;
+		vrLoc = 1206;
+	};
+	6DB2015F0FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 49";
+		rLen = 1;
+		rLoc = 1421;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 251;
+	};
+	6DB201600FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 45";
+		rLen = 0;
+		rLoc = 1501;
+		rType = 0;
+		vrLen = 1807;
+		vrLoc = 1206;
+	};
+	6DB201610FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201640FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 22";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201670FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB2016A0FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 45";
+		rLen = 0;
+		rLoc = 1501;
+		rType = 0;
+		vrLen = 1807;
+		vrLoc = 1206;
+	};
+	6DB2016B0FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 45";
+		rLen = 0;
+		rLoc = 1501;
+		rType = 0;
+		vrLen = 1733;
+		vrLoc = 1206;
+	};
+	6DB2016E0FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 22";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB2016F0FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		rLen = 0;
+		rLoc = 2147483721;
+		rType = 0;
+	};
+	6DB201700FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 22";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201710FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		name = "AGSLayer.m: 24";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	6DB201720FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB201750FBDE47A00EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB201760FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB201770FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB201780FBDE47A00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 9";
+		rLen = 0;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB201810FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	6DB201820FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 87";
+		rLen = 0;
+		rLoc = 2625;
+		rType = 0;
+		vrLen = 1025;
+		vrLoc = 4407;
+	};
+	6DB201830FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201840FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 22";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201850FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB201860FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 45";
+		rLen = 0;
+		rLoc = 1501;
+		rType = 0;
+		vrLen = 1733;
+		vrLoc = 1206;
+	};
+	6DB201870FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		name = "AGSLayer.m: 24";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	6DB201880FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB201890FBDE4D900EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB2018A0FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB2018B0FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB2018C0FBDE4D900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 9";
+		rLen = 0;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB201970FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	6DB201980FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	6DB201990FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB2019A0FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 45";
+		rLen = 0;
+		rLoc = 1501;
+		rType = 0;
+		vrLen = 1733;
+		vrLoc = 1206;
+	};
+	6DB2019B0FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 46";
+		rLen = 0;
+		rLoc = 1551;
+		rType = 0;
+		vrLen = 1694;
+		vrLoc = 560;
+	};
+	6DB2019C0FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 9";
+		rLen = 0;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB2019D0FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB2019E0FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 3357;
+	};
+	6DB2019F0FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201A00FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 22";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201A10FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB201A20FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		name = "AGSLayer.m: 24";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	6DB201A30FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB201A40FBDE55400EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB201A50FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB201A60FBDE55400EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB201A80FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB201A90FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1170;
+		vrLoc = 4097;
+	};
+	6DB201AA0FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 46";
+		rLen = 0;
+		rLoc = 1551;
+		rType = 0;
+		vrLen = 1698;
+		vrLoc = 560;
+	};
+	6DB201AB0FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB201AC0FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201AD0FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 22";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201AE0FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB201AF0FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		name = "AGSLayer.m: 24";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	6DB201B00FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB201B10FBDE56E00EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB201B20FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB201B30FBDE56E00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB201B40FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB201B50FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1815;
+		vrLoc = 6105;
+	};
+	6DB201B60FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 46";
+		rLen = 0;
+		rLoc = 1551;
+		rType = 0;
+		vrLen = 1698;
+		vrLoc = 560;
+	};
+	6DB201B70FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB201B80FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201B90FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 22";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201BA0FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB201BB0FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		name = "AGSLayer.m: 24";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	6DB201BC0FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB201BD0FBDE57800EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB201BE0FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB201BF0FBDE57800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB201C20FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB201C30FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 46";
+		rLen = 0;
+		rLoc = 1551;
+		rType = 0;
+		vrLen = 1698;
+		vrLoc = 560;
+	};
+	6DB201C40FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1815;
+		vrLoc = 6105;
+	};
+	6DB201C50FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB201C60FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201C70FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 22";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201C80FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB201C90FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		name = "AGSLayer.m: 24";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	6DB201CA0FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB201CB0FBDE59500EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB201CC0FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB201CD0FBDE59500EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB201D10FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB201D20FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 26";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201D30FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 42";
+		rLen = 0;
+		rLoc = 1204;
+		rType = 0;
+		vrLen = 1728;
+		vrLoc = 541;
+	};
+	6DB201D40FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 3357;
+	};
+	6DB201D50FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB201D60FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201D70FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB201D80FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		name = "AGSLayer.m: 24";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	6DB201D90FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB201DA0FBDE6EB00EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB201DB0FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB201DC0FBDE6EB00EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB201DF0FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB201E00FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 32";
+		rLen = 0;
+		rLoc = 766;
+		rType = 0;
+		vrLen = 1726;
+		vrLoc = 541;
+	};
+	6DB201E10FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 26";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201E20FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 3357;
+	};
+	6DB201E30FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB201E40FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201E50FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB201E60FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		name = "AGSLayer.m: 24";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	6DB201E70FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB201E80FBDE78200EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB201E90FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB201EA0FBDE78200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB201EC0FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB201ED0FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 32";
+		rLen = 0;
+		rLoc = 766;
+		rType = 0;
+		vrLen = 1726;
+		vrLoc = 541;
+	};
+	6DB201EE0FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 26";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201EF0FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 3357;
+	};
+	6DB201F00FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB201F10FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201F20FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB201F30FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
+		name = "AGSLayer.m: 24";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	6DB201F40FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB201F50FBDE79900EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB201F60FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB201F70FBDE79900EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB201F90FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB201FA0FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 47";
+		rLen = 0;
+		rLoc = 1551;
+		rType = 0;
+		vrLen = 1719;
+		vrLoc = 541;
+	};
+	6DB201FB0FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 26";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB201FC0FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 3357;
+	};
+	6DB201FD0FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB201FE0FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB201FF0FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB202000FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB202010FBDE7E600EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB202020FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB202030FBDE7E600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB202070FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB202080FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 47";
+		rLen = 0;
+		rLoc = 1522;
+		rType = 0;
+		vrLen = 1725;
+		vrLoc = 541;
+	};
+	6DB202090FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 26";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB2020A0FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 3357;
+	};
+	6DB2020B0FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB2020C0FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB2020D0FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB2020E0FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB2020F0FBDE80800EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB202100FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB202110FBDE80800EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB202140FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB202150FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 47";
+		rLen = 0;
+		rLoc = 1550;
+		rType = 0;
+		vrLen = 1691;
+		vrLoc = 586;
+	};
+	6DB202160FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 26";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB202170FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 3357;
+	};
+	6DB202180FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB202190FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB2021A0FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB2021B0FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB2021C0FBDE96600EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB2021D0FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB2021E0FBDE96600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB202200FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB202210FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 47";
+		rLen = 0;
+		rLoc = 1550;
+		rType = 0;
+		vrLen = 1718;
+		vrLoc = 586;
+	};
+	6DB202220FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 26";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB202230FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 3357;
+	};
+	6DB202240FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB202250FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB202260FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB202270FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB202280FBDE98600EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB202290FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB2022A0FBDE98600EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
+	};
+	6DB2022B0FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 18";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	6DB2022C0FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180060F35EF010032B3B4 /* AGSMapService.m */;
+		name = "AGSMapService.m: 47";
+		rLen = 0;
+		rLoc = 1535;
+		rType = 0;
+		vrLen = 1718;
+		vrLoc = 586;
+	};
+	6DB2022D0FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */;
+		name = "AGSLayer.h: 26";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	6DB2022E0FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180B50F3604BC0032B3B4 /* AGSMapServiceViewController.m */;
+		name = "AGSMapServiceViewController.m: 142";
+		rLen = 0;
+		rLoc = 4154;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 3357;
+	};
+	6DB2022F0FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084910F310E7100D2C1D7 /* AGSService.m */;
+		name = "AGSService.m: 27";
+		rLen = 0;
+		rLoc = 596;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 38;
+	};
+	6DB202300FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D0180050F35EF010032B3B4 /* AGSMapService.h */;
+		name = "AGSMapService.h: 31";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 251;
+	};
+	6DB202310FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084870F310CA000D2C1D7 /* AGSFolder.h */;
+		name = "AGSFolder.h: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6DB202320FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084880F310CA000D2C1D7 /* AGSFolder.m */;
+		name = "AGSFolder.m: 35";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 424;
+	};
+	6DB202330FBDE9B200EF80C5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleName,
+		);
+		name = "/Users/gvellut/Documents/GIS Workspace/agstouch/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6DB202340FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* FolderViewController.m */;
+		name = "FolderViewController.m: 137";
+		rLen = 0;
+		rLoc = 3515;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 4068;
+	};
+	6DB202350FBDE9B200EF80C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D3084990F31100B00D2C1D7 /* AGSResource.m */;
+		name = "AGSResource.m: 39";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 143;
 	};
 	6DB714220F9E619800D42139 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1941,7 +3952,7 @@
 		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
 		name = "AGSLayer.m: 24";
 		rLen = 23;
-		rLoc = 499;
+		rLoc = 573;
 		rType = 0;
 		vrLen = 323;
 		vrLoc = 241;
@@ -1962,7 +3973,7 @@
 		fRef = 6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */;
 		name = "AGSLayer.m: 24";
 		rLen = 23;
-		rLoc = 499;
+		rLoc = 573;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 210;
@@ -1979,18 +3990,18 @@
 	};
 	6DC9AB4C0F38FC3900F92FCB /* AGSLayer.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {798, 336}}";
-			sepNavSelRange = "{459, 12}";
-			sepNavVisRange = "{174, 301}";
+			sepNavIntBoundsRect = "{{0, 0}, {948, 810}}";
+			sepNavSelRange = "{550, 0}";
+			sepNavVisRange = "{0, 550}";
 			sepNavWindowFrame = "{{851, 4}, {820, 961}}";
 		};
 	};
 	6DC9AB4D0F38FC3900F92FCB /* AGSLayer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 647}}";
-			sepNavSelRange = "{477, 0}";
-			sepNavVisRange = "{0, 631}";
-			sepNavWindowFrame = "{{778, 185}, {654, 775}}";
+			sepNavIntBoundsRect = "{{0, 0}, {954, 810}}";
+			sepNavSelRange = "{553, 0}";
+			sepNavVisRange = "{0, 705}";
+			sepNavWindowFrame = "{{712, 51}, {820, 961}}";
 		};
 	};
 	6DC9AB6B0F38FEBB00F92FCB /* PBXTextBookmark */ = {
